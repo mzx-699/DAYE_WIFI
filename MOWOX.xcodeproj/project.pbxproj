@@ -21,6 +21,17 @@
 		18A3EACE2653AF610056F267 /* DVBackGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC62653AF600056F267 /* DVBackGroundViewController.m */; };
 		18A3EACF2653AF610056F267 /* DVModelTwoHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC72653AF600056F267 /* DVModelTwoHelpViewController.m */; };
 		18A3EAD02653AF610056F267 /* DVModelOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC82653AF610056F267 /* DVModelOneViewController.m */; };
+		18C2ADDB2653B8A4000142A1 /* dv.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADDA2653B8A4000142A1 /* dv.png */; };
+		18C2ADDF2653B975000142A1 /* dv_wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADDE2653B975000142A1 /* dv_wifi.png */; };
+		18C2ADE32653B980000142A1 /* dv_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADE22653B980000142A1 /* dv_ok.png */; };
+		18C2ADE62653B98A000142A1 /* dv_model2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADE52653B98A000142A1 /* dv_model2.png */; };
+		18C2ADE92653B995000142A1 /* dv_model1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADE82653B995000142A1 /* dv_model1.png */; };
+		18C2ADEC2653B99F000142A1 /* dv_m2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADEB2653B99F000142A1 /* dv_m2.png */; };
+		18C2ADEF2653B9AD000142A1 /* dv_m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADEE2653B9AD000142A1 /* dv_m1.png */; };
+		18C2ADFD2653B9C5000142A1 /* dv_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADFC2653B9C5000142A1 /* dv_icon1.png */; };
+		18C2AE002653B9DA000142A1 /* dv_con.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2ADFF2653B9DA000142A1 /* dv_con.png */; };
+		18C2AE042653B9E4000142A1 /* dv_btn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2AE032653B9E4000142A1 /* dv_btn2.png */; };
+		18C2AE072653B9F1000142A1 /* dv_btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2AE062653B9F1000142A1 /* dv_btn1.png */; };
 		36009B7F21F0260B00245D71 /* Welcome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36009B7E21F0260B00245D71 /* Welcome@2x.png */; };
 		36009B8221F0261B00245D71 /* Welcome1_4.7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36009B8021F0261B00245D71 /* Welcome1_4.7@2x.png */; };
 		36009B8321F0261B00245D71 /* Welcome1_5.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36009B8121F0261B00245D71 /* Welcome1_5.5@2x.png */; };
@@ -352,6 +363,17 @@
 		18A3EAC62653AF600056F267 /* DVBackGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVBackGroundViewController.m; sourceTree = "<group>"; };
 		18A3EAC72653AF600056F267 /* DVModelTwoHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModelTwoHelpViewController.m; sourceTree = "<group>"; };
 		18A3EAC82653AF610056F267 /* DVModelOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModelOneViewController.m; sourceTree = "<group>"; };
+		18C2ADDA2653B8A4000142A1 /* dv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv.png; sourceTree = "<group>"; };
+		18C2ADDE2653B975000142A1 /* dv_wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_wifi.png; sourceTree = "<group>"; };
+		18C2ADE22653B980000142A1 /* dv_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_ok.png; sourceTree = "<group>"; };
+		18C2ADE52653B98A000142A1 /* dv_model2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_model2.png; sourceTree = "<group>"; };
+		18C2ADE82653B995000142A1 /* dv_model1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_model1.png; sourceTree = "<group>"; };
+		18C2ADEB2653B99F000142A1 /* dv_m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_m2.png; sourceTree = "<group>"; };
+		18C2ADEE2653B9AD000142A1 /* dv_m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_m1.png; sourceTree = "<group>"; };
+		18C2ADFC2653B9C5000142A1 /* dv_icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_icon1.png; sourceTree = "<group>"; };
+		18C2ADFF2653B9DA000142A1 /* dv_con.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_con.png; sourceTree = "<group>"; };
+		18C2AE032653B9E4000142A1 /* dv_btn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_btn2.png; sourceTree = "<group>"; };
+		18C2AE062653B9F1000142A1 /* dv_btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dv_btn1.png; sourceTree = "<group>"; };
 		1F864A63560DCE59776D4952 /* Pods-MOWOX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.release.xcconfig"; sourceTree = "<group>"; };
 		2AE496D7F13DBD5595CE6EED /* libPods-Giz_Mower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Giz_Mower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36009B7E21F0260B00245D71 /* Welcome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Welcome@2x.png"; path = "image/icon1/Welcome@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -1305,6 +1327,17 @@
 		3E6325401FA6CDD000F14462 /* imageAbandon */ = {
 			isa = PBXGroup;
 			children = (
+				18C2AE062653B9F1000142A1 /* dv_btn1.png */,
+				18C2AE032653B9E4000142A1 /* dv_btn2.png */,
+				18C2ADFF2653B9DA000142A1 /* dv_con.png */,
+				18C2ADFC2653B9C5000142A1 /* dv_icon1.png */,
+				18C2ADEE2653B9AD000142A1 /* dv_m1.png */,
+				18C2ADEB2653B99F000142A1 /* dv_m2.png */,
+				18C2ADE82653B995000142A1 /* dv_model1.png */,
+				18C2ADE52653B98A000142A1 /* dv_model2.png */,
+				18C2ADE22653B980000142A1 /* dv_ok.png */,
+				18C2ADDE2653B975000142A1 /* dv_wifi.png */,
+				18C2ADDA2653B8A4000142A1 /* dv.png */,
 				3E2454261FBD224E00095FBE /* 割草机@3x.png */,
 				3E2454241FBD1F1000095FBE /* 割草机@2x.png */,
 				3E2F25341FB949C200E79C23 /* findBluetooth@2x.png */,
@@ -1742,6 +1775,7 @@
 				BB479EFA208D6F9200B19D6A /* 180*180@3x.png in Resources */,
 				36F0FCFD2456C599006B1ABA /* ipad40pt@2x.png in Resources */,
 				3644AF5524F658970063D913 /* img_LCDmodel2_btn.png in Resources */,
+				18C2ADEC2653B99F000142A1 /* dv_m2.png in Resources */,
 				3644AF7324F67F930063D913 /* img_model1_help_up.png in Resources */,
 				36F0FCF82456C599006B1ABA /* ipad29pt@1x.png in Resources */,
 				BB01A121254FE2FC00BC5340 /* DM10401.BIN in Resources */,
@@ -1754,6 +1788,7 @@
 				3E6325541FA6D09400F14462 /* background@2x.png in Resources */,
 				3E5815BF1FAFF72300E93520 /* Generalsetting@1x.png in Resources */,
 				3E1480601FCFEF1400FA8A2D /* A2@3x.png in Resources */,
+				18C2ADE92653B995000142A1 /* dv_model1.png in Resources */,
 				3E2F25311FB946EF00E79C23 /* Imformation@2x.png in Resources */,
 				3644AF7524F67F930063D913 /* img_lcdModelHelp2.png in Resources */,
 				BB2CF26821DF4436008DA45E /* img_logout@2x.png in Resources */,
@@ -1770,6 +1805,7 @@
 				BB513EF72140DAC4000D2A5E /* ic_nav_more_black@3x.png in Resources */,
 				BBB611272019B111007FA3D4 /* 60x60@3x.png in Resources */,
 				3E11A38A1FD90AAD000CAA08 /* icon-60.png in Resources */,
+				18C2ADFD2653B9C5000142A1 /* dv_icon1.png in Resources */,
 				BB479EFE208D6F9200B19D6A /* 87*87@3x.png in Resources */,
 				36F0FD022456C599006B1ABA /* iphone20pt@3x.png in Resources */,
 				3E11A3871FD90AAD000CAA08 /* icon-60@3x.png in Resources */,
@@ -1787,6 +1823,7 @@
 				3644AF4824F658970063D913 /* img_model1_help.png in Resources */,
 				3E43ACE31FAAB39C00924616 /* Pinsetting@1x.png in Resources */,
 				3EF771AA1FAAA38A00EC016A /* right@1x.png in Resources */,
+				18C2ADE32653B980000142A1 /* dv_ok.png in Resources */,
 				BB479EF9208D6F9200B19D6A /* 120*120@3x.png in Resources */,
 				3E11A38B1FD90AAD000CAA08 /* 80@3x.png in Resources */,
 				3E5815C01FAFF72300E93520 /* WorkingtimeSetting@1x.png in Resources */,
@@ -1806,6 +1843,7 @@
 				3E63255A1FA6DB7900F14462 /* login@2x.png in Resources */,
 				BB479EF8208D6F9200B19D6A /* 60*60@3x.png in Resources */,
 				3E3562001FB4560E00135503 /* bluetoothImage@1x.png in Resources */,
+				18C2AE042653B9E4000142A1 /* dv_btn2.png in Resources */,
 				3E22E2A51FA9A7B8000BC792 /* wifi@2x.png in Resources */,
 				BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */,
 				3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */,
@@ -1827,6 +1865,7 @@
 				365E6BFE24F8F4670067E737 /* DY0M008.BIN in Resources */,
 				3644AF5C24F658980063D913 /* A6@2x.png in Resources */,
 				3E11A3851FD90AAD000CAA08 /* 120@3x.png in Resources */,
+				18C2ADDB2653B8A4000142A1 /* dv.png in Resources */,
 				3E1480811FD00C0700FA8A2D /* A3@2x.png in Resources */,
 				3644AF4D24F658970063D913 /* img_arrow.png in Resources */,
 				3EF771A71FAAA38A00EC016A /* down@1x.png in Resources */,
@@ -1836,6 +1875,7 @@
 				3E43ACE51FAAB39C00924616 /* signal@1x.png in Resources */,
 				36FE81BE21DDBB5B00BD29F4 /* ic_eyespassword@1x.png in Resources */,
 				36605E552253855500849403 /* Images.xcassets in Resources */,
+				18C2AE002653B9DA000142A1 /* dv_con.png in Resources */,
 				36009B8221F0261B00245D71 /* Welcome1_4.7@2x.png in Resources */,
 				3E1480501FCFEF1400FA8A2D /* launchImage@2x.png in Resources */,
 				3644AF5E24F658980063D913 /* A3@3x.png in Resources */,
@@ -1859,6 +1899,7 @@
 				36F0FD052456C599006B1ABA /* 167X167.png in Resources */,
 				3E2F25301FB946EF00E79C23 /* Generalsetting@2x.png in Resources */,
 				3644AFA224F75B130063D913 /* icon_check.png in Resources */,
+				18C2ADE62653B98A000142A1 /* dv_model2.png in Resources */,
 				3E14806C1FCFFA8C00FA8A2D /* 电量2-2@1x.png in Resources */,
 				3E22E2A61FA9A7B8000BC792 /* zx_code_line@2x.png in Resources */,
 				3644AF5924F658980063D913 /* 蓝牙连接@2x.png in Resources */,
@@ -1879,6 +1920,7 @@
 				3E11A38E1FD90B46000CAA08 /* icon-60@2x.png in Resources */,
 				36C6BEAB24D4109C00E5B7F6 /* DY14273.BIN in Resources */,
 				365E6C0324FA2B790067E737 /* ipad20pt@1x.png in Resources */,
+				18C2ADDF2653B975000142A1 /* dv_wifi.png in Resources */,
 				BB513EFD2140DBB6000D2A5E /* img_nav_more@2x.png in Resources */,
 				BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */,
 				BB479EFD208D6F9200B19D6A /* 1024*1024@1x.png in Resources */,
@@ -1902,11 +1944,13 @@
 				3644AF5224F658970063D913 /* img_model2_help.png in Resources */,
 				36F0FCFF2456C599006B1ABA /* iphone40pt@2x.png in Resources */,
 				3E458D1D21AFD688001FEB1F /* SecondaryAreaImage.png in Resources */,
+				18C2ADEF2653B9AD000142A1 /* dv_m1.png in Resources */,
 				3E14806B1FCFFA8C00FA8A2D /* 电量1-2@1x.png in Resources */,
 				3EE3DC471FA8B2BE0049B8F7 /* 前进@2x.png in Resources */,
 				3644AF7624F67F930063D913 /* img_model1_help_down.png in Resources */,
 				3644AF2724F652260063D913 /* img_addDevice_ConnectBtn.png in Resources */,
 				3644AF4E24F658970063D913 /* 机器人APP1+2(1-1.png in Resources */,
+				18C2AE072653B9F1000142A1 /* dv_btn1.png in Resources */,
 				BB8D94B4213FE8970079EE63 /* PasswordTableViewCell.xib in Resources */,
 				36F0FCF72456C599006B1ABA /* iphone29pt@2x.png in Resources */,
 				3E11A3891FD90AAD000CAA08 /* 58@2x.png in Resources */,

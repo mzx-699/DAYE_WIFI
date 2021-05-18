@@ -20,7 +20,8 @@
 @property (nonatomic, strong) UIButton *lcdBtn;
 //@property (nonatomic, strong) UIButton *nextBtn;
 @property (strong, nonatomic) UIButton * bgViewBtn;
-
+@property (nonatomic, strong) UIButton *dvBtn;
+@property (nonatomic, strong) UILabel *dvLabel;
 @property (strong, nonatomic)  UIImageView *deviceImage;
 
 @end
@@ -41,9 +42,49 @@
     _simpleBtn = [self simpleBtn];
     _lcdBtn = [self lcdBtn];
     _bgViewBtn = [self bgViewBtn];
+    [self setupUI];
     
 }
-
+#pragma mark - dv
+- (void)dvBtnClick {
+    NSLog(@"dvBtnClick");
+}
+- (UIButton *)dvBtn{
+    if (!_dvBtn) {
+        _dvBtn = [UIButton new];
+        [_dvBtn setBackgroundImage:[UIImage imageNamed:@"dv"] forState:UIControlStateNormal];
+        [_dvBtn addTarget:self action:@selector(dvBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _dvBtn;
+}
+- (UILabel *)dvLabel{
+    if (!_dvLabel) {
+        _dvLabel = [UILabel new];
+        _dvLabel.text = LocalString(@"Diggital Version");
+        _dvLabel.font = [UIFont systemFontOfSize:20.f];
+        _dvLabel.textColor = [UIColor whiteColor];
+        _dvLabel.textAlignment = NSTextAlignmentCenter;
+        _dvLabel.adjustsFontSizeToFitWidth = YES;
+    }
+    return _dvLabel;
+}
+#pragma mark - 设置UI
+- (void)setupUI {
+    [self.view addSubview:self.dvBtn];
+    [self.view addSubview:self.dvLabel];
+    
+    [self.dvBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view.mas_centerX);
+        make.top.equalTo(self.tipLabel.mas_bottom).offset(yAutoFit(30.f));
+        make.size.mas_equalTo(CGSizeMake(yAutoFit(80), yAutoFit(80.f)));
+    }];
+    [self.dvLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(yAutoFit(80), yAutoFit(20)));
+        make.top.equalTo(self.dvBtn.mas_bottom).offset(yAutoFit(20));
+        make.centerX.equalTo(self.dvBtn.mas_centerX);
+    }];
+    
+}
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Add Robot");
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
@@ -100,7 +141,7 @@
         [_simpleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(yAutoFit(80), yAutoFit(80.f)));
             make.top.equalTo(self.tipLabel.mas_bottom).offset(yAutoFit(30.f));
-            make.right.mas_equalTo(self.view.mas_centerX).offset(yAutoFit(-20));
+            make.left.mas_equalTo(self.view.mas_left).offset(yAutoFit(50));
         }];
         
         UILabel *simplelabel = [[UILabel alloc] init];
@@ -114,7 +155,7 @@
         [simplelabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(yAutoFit(80), yAutoFit(20)));
             make.top.equalTo(self.simpleBtn.mas_bottom).offset(yAutoFit(20));
-            make.right.mas_equalTo(self.view.mas_centerX).offset(yAutoFit(-20));
+            make.centerX.equalTo(self.simpleBtn.mas_centerX);
         }];
         
     }
@@ -132,7 +173,7 @@
         [_lcdBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(yAutoFit(80), yAutoFit(80.f)));
             make.top.equalTo(self.tipLabel.mas_bottom).offset(yAutoFit(30.f));
-            make.left.mas_equalTo(self.view.mas_centerX).offset(yAutoFit(20));
+            make.right.mas_equalTo(self.view.mas_right).offset(yAutoFit(-50));
         }];
    
         UILabel *lcdlabel = [[UILabel alloc] init];
@@ -146,7 +187,7 @@
         [lcdlabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(yAutoFit(80), yAutoFit(20)));
             make.top.equalTo(self.lcdBtn.mas_bottom).offset(yAutoFit(20));
-            make.left.mas_equalTo(self.view.mas_centerX).offset(yAutoFit(20));
+            make.centerX.equalTo(self.lcdBtn.mas_centerX);
         }];
     }
     return _lcdBtn;
