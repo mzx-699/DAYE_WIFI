@@ -10,7 +10,7 @@
 #import "AddDeviceHelpViewController.h"
 #import "SimpleVersionViewController.h"
 #import "LCDVersionlViewControlle.h"
-
+#import "DigitalVersionViewController.h"
 
 @interface SelectModelViewController ()
 
@@ -47,7 +47,8 @@
 }
 #pragma mark - dv
 - (void)dvBtnClick {
-    NSLog(@"dvBtnClick");
+    DigitalVersionViewController *vc = [[DigitalVersionViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (UIButton *)dvBtn{
     if (!_dvBtn) {

@@ -93,7 +93,7 @@
         [_connectBtn setBackgroundImage:[UIImage imageNamed:@"img_connect_Btn"] forState:UIControlStateNormal];
         //[_connectBtn setTitle:LocalString(@"Next") forState:UIControlStateNormal];
         //[_connectBtn.titleLabel setFont:[UIFont systemFontOfSize:18.f]];
-        //[_connectBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        //[_connectBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];ConnectWifi
         [_connectBtn setBackgroundColor:[UIColor clearColor]];
         [_connectBtn addTarget:self action:@selector(ConnectWifi) forControlEvents:UIControlEventTouchUpInside];
         _connectBtn.enabled = YES;

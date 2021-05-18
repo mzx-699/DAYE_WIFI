@@ -34,8 +34,8 @@
 //    LoginViewController *vc = [[LoginViewController alloc] init];
 //    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
 //    self.window.rootViewController = nav;
-    SelectModelViewController *vc = [[SelectModelViewController alloc] init];
-//    ChangeViewController *vc = [[ChangeViewController alloc] init];
+//    SelectModelViewController *vc = [[SelectModelViewController alloc] init];
+    ChangeViewController *vc = [[ChangeViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     

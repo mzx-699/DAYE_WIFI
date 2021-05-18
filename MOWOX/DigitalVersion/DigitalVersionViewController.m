@@ -109,8 +109,8 @@
     [self.view addSubview:self.helpBtn];
     
     [self.topImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.size.mas_equalTo(CGSizeMake(300, 180));
-        make.top.equalTo(self.view.mas_top).offset(60);
+        make.size.mas_equalTo(CGSizeMake(yAutoFit(300),yAutoFit(180)));
+        make.top.equalTo(self.view.mas_top).offset(yAutoFit(80));
         make.centerX.equalTo(self.view.mas_centerX);
     }];
     [self.leftImageView

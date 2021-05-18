@@ -10,6 +10,7 @@
 #import "Masonry.h"
 #import "DVModelTwoHelpViewController.h"
 #import "NSMutableAttributedString+Common.h"
+#import "APFinishViewController.h"
 @interface DVModelTwoViewController ()
 @property (nonatomic, strong) ModelView *topModelView;
 @property (nonatomic, strong) UIButton *connectBtn;
@@ -29,6 +30,31 @@
     DVModelTwoHelpViewController *vc = [DVModelTwoHelpViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
+- (void)conBtnClick {
+    NSString *wifiName = @"Robot_Mower";
+    if ([[GizManager getCurrentWifi] hasPrefix:wifiName]) {
+        APFinishViewController *VC = [[APFinishViewController alloc] init];
+        [self.navigationController pushViewController:VC animated:YES];
+    }else{
+        [self showAlert];
+    }
+}
+- (void)showAlert{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Jump prompt") message:LocalString(@"Connect hotspots “Robot_Mower” in settings") preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:LocalString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        if (@available(iOS 10.0, *)) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+        }else{
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+        }
+    }];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"Cancel") style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:okAction];
+    [alert addAction:cancelAction];
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
 #pragma mark - 懒加载控件
 - (ModelView *)topModelView{
     if (!_topModelView) {
@@ -46,6 +72,7 @@
     if (!_connectBtn) {
         _connectBtn = [UIButton new];
         [_connectBtn setBackgroundImage:[UIImage imageNamed:@"dv_con"] forState:UIControlStateNormal];
+        [_connectBtn addTarget:self action:@selector(conBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _connectBtn;
 }

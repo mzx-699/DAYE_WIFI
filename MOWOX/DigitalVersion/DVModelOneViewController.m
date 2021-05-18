@@ -10,6 +10,7 @@
 #import "Masonry.h"
 #import "DVModelOneHelpViewController.h"
 #import "NSMutableAttributedString+Common.h"
+#import "AirLinkViewController.h"
 @interface DVModelOneViewController ()
 @property (nonatomic, strong) ModelView *topModelView;
 @property (nonatomic, strong) UIButton *connectBtn;
@@ -28,7 +29,11 @@
     DVModelOneHelpViewController *vc = [DVModelOneHelpViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
-#pragma mark - 数据处理
+- (void)conBtnClick {
+    NSLog(@"conBtnClick");
+    AirLinkViewController *VC = [[AirLinkViewController alloc] init];
+    [self.navigationController pushViewController:VC animated:YES];
+}
 #pragma mark - 懒加载控件
 - (ModelView *)topModelView{
     if (!_topModelView) {
@@ -46,6 +51,7 @@
     if (!_connectBtn) {
         _connectBtn = [UIButton new];
         [_connectBtn setBackgroundImage:[UIImage imageNamed:@"dv_con"] forState:UIControlStateNormal];
+        [_connectBtn addTarget:self action:@selector(conBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _connectBtn;
 }

@@ -16,7 +16,7 @@
 
 + (UIImageView *)backGroundImageView {
     UIImageView *imageView = [self imageViewWithImageName:@"loginView"];
-    imageView.frame = CGRectMake(0, -20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    imageView.frame = CGRectMake(0, -20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height + 20);
     return imageView;
 }
 @end
