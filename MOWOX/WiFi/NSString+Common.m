@@ -59,4 +59,10 @@
     }
 }
 
+/// label大小适应文字大小
+/// @param labelFont label‘s font
+/// @param width 固定宽度，保证换行
+- (CGSize)labelSizeWithFont:(UIFont *)labelFont andWidth:(CGFloat)width {
+    return [self boundingRectWithSize:CGSizeMake(width, 0) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : labelFont} context:nil].size;
+}
 @end

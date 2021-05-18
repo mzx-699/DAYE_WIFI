@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface NSString (Common)
 + (Byte *)UInt8ByHexString:(NSString *)text;
 + (NSString *)fetchNewNodeString:(NSString *)sourceString;
+- (CGSize)labelSizeWithFont:(UIFont *)labelFont andWidth:(CGFloat)width;
 @end

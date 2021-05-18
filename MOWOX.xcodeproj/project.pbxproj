@@ -11,6 +11,16 @@
 		1841514B2593301B002B5A21 /* GWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841514A2593301A002B5A21 /* GWLanguage.m */; };
 		1841515025934DF3002B5A21 /* YULanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841514C25934DF2002B5A21 /* YULanguageManager.m */; };
 		1841515125934DF3002B5A21 /* NSBundle+YULanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841514F25934DF3002B5A21 /* NSBundle+YULanguage.m */; };
+		18A3EAB12653AED40056F267 /* UIImageView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAB02653AED40056F267 /* UIImageView+Common.m */; };
+		18A3EAB52653AEF60056F267 /* NSMutableAttributedString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAB42653AEF60056F267 /* NSMutableAttributedString+Common.m */; };
+		18A3EAC92653AF610056F267 /* DVHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAB82653AF600056F267 /* DVHelpViewController.m */; };
+		18A3EACA2653AF610056F267 /* DVModelOneHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAB92653AF600056F267 /* DVModelOneHelpViewController.m */; };
+		18A3EACB2653AF610056F267 /* DigitalVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EABA2653AF600056F267 /* DigitalVersionViewController.m */; };
+		18A3EACC2653AF610056F267 /* ModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EABF2653AF600056F267 /* ModelView.m */; };
+		18A3EACD2653AF610056F267 /* DVModelTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC42653AF600056F267 /* DVModelTwoViewController.m */; };
+		18A3EACE2653AF610056F267 /* DVBackGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC62653AF600056F267 /* DVBackGroundViewController.m */; };
+		18A3EACF2653AF610056F267 /* DVModelTwoHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC72653AF600056F267 /* DVModelTwoHelpViewController.m */; };
+		18A3EAD02653AF610056F267 /* DVModelOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3EAC82653AF610056F267 /* DVModelOneViewController.m */; };
 		36009B7F21F0260B00245D71 /* Welcome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36009B7E21F0260B00245D71 /* Welcome@2x.png */; };
 		36009B8221F0261B00245D71 /* Welcome1_4.7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36009B8021F0261B00245D71 /* Welcome1_4.7@2x.png */; };
 		36009B8321F0261B00245D71 /* Welcome1_5.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36009B8121F0261B00245D71 /* Welcome1_5.5@2x.png */; };
@@ -322,6 +332,26 @@
 		1841514D25934DF3002B5A21 /* YULanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YULanguageManager.h; sourceTree = "<group>"; };
 		1841514E25934DF3002B5A21 /* NSBundle+YULanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+YULanguage.h"; sourceTree = "<group>"; };
 		1841514F25934DF3002B5A21 /* NSBundle+YULanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+YULanguage.m"; sourceTree = "<group>"; };
+		18A3EAAF2653AED40056F267 /* UIImageView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Common.h"; sourceTree = "<group>"; };
+		18A3EAB02653AED40056F267 /* UIImageView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Common.m"; sourceTree = "<group>"; };
+		18A3EAB32653AEF60056F267 /* NSMutableAttributedString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Common.h"; sourceTree = "<group>"; };
+		18A3EAB42653AEF60056F267 /* NSMutableAttributedString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Common.m"; sourceTree = "<group>"; };
+		18A3EAB82653AF600056F267 /* DVHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVHelpViewController.m; sourceTree = "<group>"; };
+		18A3EAB92653AF600056F267 /* DVModelOneHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModelOneHelpViewController.m; sourceTree = "<group>"; };
+		18A3EABA2653AF600056F267 /* DigitalVersionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitalVersionViewController.m; sourceTree = "<group>"; };
+		18A3EABB2653AF600056F267 /* DVModelTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVModelTwoViewController.h; sourceTree = "<group>"; };
+		18A3EABC2653AF600056F267 /* DVBackGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVBackGroundViewController.h; sourceTree = "<group>"; };
+		18A3EABE2653AF600056F267 /* ModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelView.h; sourceTree = "<group>"; };
+		18A3EABF2653AF600056F267 /* ModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelView.m; sourceTree = "<group>"; };
+		18A3EAC02653AF600056F267 /* DVModelOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVModelOneViewController.h; sourceTree = "<group>"; };
+		18A3EAC12653AF600056F267 /* DVModelTwoHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVModelTwoHelpViewController.h; sourceTree = "<group>"; };
+		18A3EAC22653AF600056F267 /* DVModelOneHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVModelOneHelpViewController.h; sourceTree = "<group>"; };
+		18A3EAC32653AF600056F267 /* DVHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVHelpViewController.h; sourceTree = "<group>"; };
+		18A3EAC42653AF600056F267 /* DVModelTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModelTwoViewController.m; sourceTree = "<group>"; };
+		18A3EAC52653AF600056F267 /* DigitalVersionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalVersionViewController.h; sourceTree = "<group>"; };
+		18A3EAC62653AF600056F267 /* DVBackGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVBackGroundViewController.m; sourceTree = "<group>"; };
+		18A3EAC72653AF600056F267 /* DVModelTwoHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModelTwoHelpViewController.m; sourceTree = "<group>"; };
+		18A3EAC82653AF610056F267 /* DVModelOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVModelOneViewController.m; sourceTree = "<group>"; };
 		1F864A63560DCE59776D4952 /* Pods-MOWOX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.release.xcconfig"; sourceTree = "<group>"; };
 		2AE496D7F13DBD5595CE6EED /* libPods-Giz_Mower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Giz_Mower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36009B7E21F0260B00245D71 /* Welcome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Welcome@2x.png"; path = "image/icon1/Welcome@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -833,6 +863,37 @@
 			name = other;
 			sourceTree = "<group>";
 		};
+		18A3EAB72653AF600056F267 /* DigitalVersion */ = {
+			isa = PBXGroup;
+			children = (
+				18A3EAB82653AF600056F267 /* DVHelpViewController.m */,
+				18A3EAB92653AF600056F267 /* DVModelOneHelpViewController.m */,
+				18A3EABA2653AF600056F267 /* DigitalVersionViewController.m */,
+				18A3EABB2653AF600056F267 /* DVModelTwoViewController.h */,
+				18A3EABC2653AF600056F267 /* DVBackGroundViewController.h */,
+				18A3EABD2653AF600056F267 /* dv_custom */,
+				18A3EAC02653AF600056F267 /* DVModelOneViewController.h */,
+				18A3EAC12653AF600056F267 /* DVModelTwoHelpViewController.h */,
+				18A3EAC22653AF600056F267 /* DVModelOneHelpViewController.h */,
+				18A3EAC32653AF600056F267 /* DVHelpViewController.h */,
+				18A3EAC42653AF600056F267 /* DVModelTwoViewController.m */,
+				18A3EAC52653AF600056F267 /* DigitalVersionViewController.h */,
+				18A3EAC62653AF600056F267 /* DVBackGroundViewController.m */,
+				18A3EAC72653AF600056F267 /* DVModelTwoHelpViewController.m */,
+				18A3EAC82653AF610056F267 /* DVModelOneViewController.m */,
+			);
+			path = DigitalVersion;
+			sourceTree = "<group>";
+		};
+		18A3EABD2653AF600056F267 /* dv_custom */ = {
+			isa = PBXGroup;
+			children = (
+				18A3EABE2653AF600056F267 /* ModelView.h */,
+				18A3EABF2653AF600056F267 /* ModelView.m */,
+			);
+			path = dv_custom;
+			sourceTree = "<group>";
+		};
 		3644AF2924F658960063D913 /* 1512021594829 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1105,6 +1166,8 @@
 				3E5D74F31FCD5817007F8E71 /* Button */,
 				3E1E29EF1FC0101900696EE6 /* NSObject+Common.h */,
 				3E1E29F01FC0101900696EE6 /* NSObject+Common.m */,
+				18A3EAAF2653AED40056F267 /* UIImageView+Common.h */,
+				18A3EAB02653AED40056F267 /* UIImageView+Common.m */,
 				3E5D74ED1FCD4E19007F8E71 /* UILabel+Common.h */,
 				3E5D74EE1FCD4E19007F8E71 /* UILabel+Common.m */,
 				3E5D74F71FCD5E25007F8E71 /* UIButton+Common.h */,
@@ -1117,6 +1180,8 @@
 				BBFD388F2079ACB500D02ACD /* UIViewController+BarButton.m */,
 				BB8D94A9213FE8100079EE63 /* NSString+Common.h */,
 				BB8D94A8213FE8100079EE63 /* NSString+Common.m */,
+				18A3EAB32653AEF60056F267 /* NSMutableAttributedString+Common.h */,
+				18A3EAB42653AEF60056F267 /* NSMutableAttributedString+Common.m */,
 			);
 			name = OC_Category;
 			sourceTree = "<group>";
@@ -1148,6 +1213,7 @@
 		3E5815DC1FB03C7D00E93520 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				18A3EAB72653AF600056F267 /* DigitalVersion */,
 				BB8291AF21CA6ECE000AC4D4 /* Giz */,
 				BB5791162101B9C7005E3DFD /* Base */,
 				3EA4D62B1FC913F9004D503D /* TabViewController */,
@@ -1923,16 +1989,19 @@
 			files = (
 				1841514B2593301B002B5A21 /* GWLanguage.m in Sources */,
 				3669CF5021C9EFED00F54D53 /* ForgetpasswordViewController.m in Sources */,
+				18A3EACE2653AF610056F267 /* DVBackGroundViewController.m in Sources */,
 				3669CF4121C9EF1D00F54D53 /* WelcomeViewController.m in Sources */,
 				BB0F914E200C7EFB0060D287 /* WTReTextField.m in Sources */,
 				3644AF8324F690C60063D913 /* LCDVersionlViewControlle.m in Sources */,
 				3E5815D81FB0375E00E93520 /* InformationTableViewController.m in Sources */,
 				BB8D9492213FE33C0079EE63 /* DeviceTableViewCell.m in Sources */,
 				36BEE7152445ED2E00684369 /* WorkTimeSettingVC_268.m in Sources */,
+				18A3EACB2653AF610056F267 /* DigitalVersionViewController.m in Sources */,
 				3E2F252B1FB93DE100E79C23 /* LaunchScreenViewController.m in Sources */,
 				3E43ACEE1FAACFC200924616 /* MainViewController.m in Sources */,
 				36FA991A236C3CCE00600941 /* RobotRunTimeViewController.m in Sources */,
 				362FAF90238BDC0C0098A5EC /* YAlertViewController.m in Sources */,
+				18A3EACD2653AF610056F267 /* DVModelTwoViewController.m in Sources */,
 				3E63253F1FA6C17C00F14462 /* LoginViewController.m in Sources */,
 				BB0F9144200C7E370060D287 /* LMPopInputPasswordView.m in Sources */,
 				3E3AD4771FDBC36A00667EDA /* MowerSettingViewController.m in Sources */,
@@ -1952,10 +2021,12 @@
 				3E63252A1FA6BC5F00F14462 /* AppDelegate.m in Sources */,
 				3E29D1951FA75D3E00F2B9F4 /* BaseNavigationViewController.m in Sources */,
 				3669CF4621C9EF2E00F54D53 /* AddDeviceViewController.m in Sources */,
+				18A3EAB12653AED40056F267 /* UIImageView+Common.m in Sources */,
 				3E14802A1FCFA7F600FA8A2D /* UITextField+Common.m in Sources */,
 				3644AF9824F751B30063D913 /* OneSimpleModelHelpViewController.m in Sources */,
 				3EC5FC9F1FD52C9600F1CB7F /* inputTextField.m in Sources */,
 				3644AF8924F691160063D913 /* LCDVersionHelplViewController.m in Sources */,
+				18A3EACA2653AF610056F267 /* DVModelOneHelpViewController.m in Sources */,
 				3E29D1921FA7226B00F2B9F4 /* BaseTableViewController.m in Sources */,
 				36BD41D423CC670900C9C451 /* SettingViewController.m in Sources */,
 				BBFD38902079ACB500D02ACD /* UIViewController+BarButton.m in Sources */,
@@ -1973,10 +2044,12 @@
 				3E3613FB1FF490D6003BA11B /* ProgressView.m in Sources */,
 				3644AF8624F690FD0063D913 /* SimpleVersionHelplViewController.m in Sources */,
 				3EE3DC411FA8B0750049B8F7 /* RemoterControlViewController.m in Sources */,
+				18A3EAC92653AF610056F267 /* DVHelpViewController.m in Sources */,
 				3E458D1521AF9876001FEB1F /* SecondarySettingViewController.m in Sources */,
 				3E5D74F61FCD583A007F8E71 /* connectButton.m in Sources */,
 				3E1951411FC2B5C100B38EAB /* AlertsViewController.m in Sources */,
 				3644AFA824F762690063D913 /* TwoLCDModelHelpViewController.m in Sources */,
+				18A3EACF2653AF610056F267 /* DVModelTwoHelpViewController.m in Sources */,
 				3E0D5ED81FDE1D1A0035857F /* WorktimeCell.m in Sources */,
 				3E5D74EF1FCD4E19007F8E71 /* UILabel+Common.m in Sources */,
 				3669CF3D21C9EEE400F54D53 /* RegisterViewController.m in Sources */,
@@ -1984,6 +2057,8 @@
 				36BEE7122445EC6900684369 /* WorktimeCell_268.m in Sources */,
 				BB8D94B8213FE8970079EE63 /* PasswordTableViewCell.m in Sources */,
 				BB0DA4482012E99100ECD8CF /* UIColor+ColorChange.m in Sources */,
+				18A3EAD02653AF610056F267 /* DVModelOneViewController.m in Sources */,
+				18A3EACC2653AF610056F267 /* ModelView.m in Sources */,
 				BB8D94B2213FE8970079EE63 /* SSIDTableViewCell.m in Sources */,
 				3669CF4D21C9EF6100F54D53 /* APFinishViewController.m in Sources */,
 				36E9696324EA375500190201 /* OldFirmwareViewController.m in Sources */,
@@ -1998,6 +2073,7 @@
 				3644AF9E24F752AE0063D913 /* AirLinkViewController.m in Sources */,
 				3644AFA524F7624B0063D913 /* OneLCDModelHelpViewController.m in Sources */,
 				3644AF6424F662610063D913 /* SelectModelViewController.m in Sources */,
+				18A3EAB52653AEF60056F267 /* NSMutableAttributedString+Common.m in Sources */,
 				BB5791192101B9DE005E3DFD /* BaseViewController.m in Sources */,
 				3644AF9524F73DF20063D913 /* TwoLCDModelViewController.m in Sources */,
 			);
