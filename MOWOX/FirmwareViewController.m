@@ -32,7 +32,6 @@
 
 @implementation FirmwareViewController
 {
-    NSString *dataName;
     NSString *dataMotor;
     NSString *dataMotorLeft;
     NSString *dataMotorRight;
@@ -87,12 +86,11 @@
 
 - (void)readFileBIN{
     //获取bin文件的总包数并记录
-    dataName = @"DM10401";
     dataMotor = @"DY0M008";
     dataMotorLeft = @"DY0L008";
     dataMotorRight = @"DY0R008";
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:dataName ofType:@"BIN"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@%@",[BluetoothDataManage shareInstance].updateFileName, @".bin"] ofType:nil];
     NSData *data = [NSData dataWithContentsOfFile:path];
     long size = [data length];
     _packgeNum_main = (int)size / firmwareData([BluetoothDataManage shareInstance].version1);
@@ -119,12 +117,7 @@
     
     self.bluetoothDataManage.updateFirmware_packageNum_Right = _packgeNum_right;
     
-    //更新固件包进度条显示
-    if ([BluetoothDataManage shareInstance].isUpdateFirmware == YES) {
-        _packgeNum_All = self.bluetoothDataManage.updateFirmware_packageNum;
-    }else{
-        _packgeNum_All = ((float)self.packgeNum_main + (float)self.packgeNum_motor + (float)self.packgeNum_left + (float)self.packgeNum_right);
-    }
+    _packgeNum_All = ((float)self.packgeNum_main + (float)self.packgeNum_motor + (float)self.packgeNum_left + (float)self.packgeNum_right);
     NSLog(@"总包数 %f %f %f %f %f",(float)_packgeNum_All,(float)self.packgeNum_main,(float)self.packgeNum_motor,(float)self.packgeNum_left,(float)self.packgeNum_right);
 }
 
@@ -238,7 +231,8 @@
     
     //curVerTextView
     _curVerTV = [[UITextView alloc] init];
-    _curVerTV.text = [NSString stringWithFormat:@"%@\n V%d.%d.%d.%d\n%@\n V%d.4.0.2\n",LocalString(@"Your robot's firmware version:"),[BluetoothDataManage shareInstance].deviceType,[BluetoothDataManage shareInstance].version1,[BluetoothDataManage shareInstance].version2,[BluetoothDataManage shareInstance].version3,LocalString(@"Latest robot's firmware version:"),[BluetoothDataManage shareInstance].deviceType];
+    #pragma mark - 2021.10.18 改
+    _curVerTV.text = [NSString stringWithFormat:@"%@\n %@\n%@\n %@\n",LocalString(@"Your robot's firmware version:"), [BluetoothDataManage shareInstance].versionString,LocalString(@"Latest robot's firmware version:"),[BluetoothDataManage shareInstance].updateFileName];
     _curVerTV.font = [UIFont fontWithName:@"Arial" size:17];
     _curVerTV.backgroundColor = [UIColor clearColor];
     _curVerTV.autocapitalizationType = UITextAutocapitalizationTypeSentences;
@@ -423,12 +417,11 @@
     self.progressViewNew.progress = self.bluetoothDataManage.progress_num / (float)_packgeNum_All;
     
     dispatch_async(dispatch_get_main_queue(), ^{
-        
         switch ([BluetoothDataManage shareInstance].updateSucceseFlag) {
             case 1: //固件更新
             {
-                [self setMototData:0x23 numData:self.bluetoothDataManage.updateFirmware_packageNum pathName:self->dataName];
-                NSLog(@"固件名称%@ %d",self->dataName,[BluetoothDataManage shareInstance].updateFirmware_packageNum);
+                [self setMototData:0x23 numData:self.bluetoothDataManage.updateFirmware_packageNum pathName:[BluetoothDataManage shareInstance].updateFileName];
+                NSLog(@"固件名称%@ %d",[BluetoothDataManage shareInstance].updateFileName,[BluetoothDataManage shareInstance].updateFirmware_packageNum);
             }
                 break;
             case 2: //电机更新
@@ -452,7 +445,6 @@
                 break;
         }
     });
-    
 }
 //更新
 - (void)setMototData:(UInt8)HCode numData:(UInt16)PackageNum pathName:(NSString *)fileName{

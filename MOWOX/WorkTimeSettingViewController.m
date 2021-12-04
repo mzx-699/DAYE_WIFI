@@ -49,6 +49,7 @@ static CGFloat cellHeight = 45.0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self inquireWorktimeSetting];
     [[self rdv_tabBarController] setTabBarHidden:YES animated:YES];
     
     self.navigationItem.title = LocalString(@"Working time setting");

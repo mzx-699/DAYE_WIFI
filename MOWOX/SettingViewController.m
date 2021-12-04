@@ -56,24 +56,7 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
         _updateButton.hidden = NO;
     }
     
-    if ([BluetoothDataManage shareInstance].version1 == 4) {
-        if ([BluetoothDataManage shareInstance].versionupdate < latestVersion_4) {
-            _updateButton.hidden = NO;
-            
-        }else{
-            _updateButton.hidden = YES;
-        }
-    }else if ([BluetoothDataManage shareInstance].version1 == 2){
-        
-        if ([BluetoothDataManage shareInstance].versionupdate < latestVersion) {
-            _updateButton.hidden = NO;
-            if ([BluetoothDataManage shareInstance].versionupdate <= 268) {
-                _updateButton.hidden = YES;
-            }
-        }else{
-            _updateButton.hidden = YES;
-        }
-    }
+    _updateButton.hidden = [BluetoothDataManage shareInstance].isUpdateBtnHidden;
 
     NSLog(@"版本号%d",[BluetoothDataManage shareInstance].versionupdate);
     //分区按钮显示
@@ -96,7 +79,7 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
         }];
     }
     NSLog(@"分区数值%d",[BluetoothDataManage shareInstance].sectionvalve);
-    NSLog(@"设备数值%d",[BluetoothDataManage shareInstance].deviceType);
+    NSLog(@"设备数值%@",[BluetoothDataManage shareInstance].deviceType);
     NSLog(@"更新的版本%d",[BluetoothDataManage shareInstance].versionupdate);
     //延时1.0秒
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -108,6 +91,7 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    _updateButton.hidden = [BluetoothDataManage shareInstance].isUpdateBtnHidden;
     [super viewWillAppear:animated];
 }
 
@@ -264,14 +248,16 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
 }
 
 - (void)mowerSet{
-    if ([BluetoothDataManage shareInstance].version1 == 4) {
-        MowerSetingVC_type4 *typeVC = [[MowerSetingVC_type4 alloc] init];
-        [self.navigationController pushViewController:typeVC animated:YES];
-    }else{
-        MowerSettingViewController *VC = [[MowerSettingViewController alloc] init];
-        [self.navigationController pushViewController:VC animated:YES];
-        
-    }
+//    if ([BluetoothDataManage shareInstance].version1 == 4) {
+//        MowerSetingVC_type4 *typeVC = [[MowerSetingVC_type4 alloc] init];
+//        [self.navigationController pushViewController:typeVC animated:YES];
+//    }else{
+//        MowerSettingViewController *VC = [[MowerSettingViewController alloc] init];
+//        [self.navigationController pushViewController:VC animated:YES];
+//        
+//    }
+    MowerSetingVC_type4 *typeVC = [[MowerSetingVC_type4 alloc] init];
+    [self.navigationController pushViewController:typeVC animated:YES];
 }
 - (void)secondarySet{
     SecondarySettingViewController *VC = [[SecondarySettingViewController alloc] init];
@@ -289,15 +275,17 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
 }
 
 - (void)updateWare{
+    #pragma mark - 2021.10.18 改
+//    if ([BluetoothDataManage shareInstance].version2 == 4) {
+//        FirmwareViewController *VC = [[FirmwareViewController alloc] init];
+//        [self.navigationController pushViewController:VC animated:YES];
+//    }else{
+//        OldFirmwareViewController *OldVC = [[OldFirmwareViewController alloc] init];
+//        [self.navigationController pushViewController:OldVC animated:YES];
+//    }
     
-    if ([BluetoothDataManage shareInstance].version1 == 4) {
-        FirmwareViewController *VC = [[FirmwareViewController alloc] init];
-        [self.navigationController pushViewController:VC animated:YES];
-    }else{
-        OldFirmwareViewController *OldVC = [[OldFirmwareViewController alloc] init];
-        [self.navigationController pushViewController:OldVC animated:YES];
-        
-    }
+    OldFirmwareViewController *OldVC = [[OldFirmwareViewController alloc] init];
+    [self.navigationController pushViewController:OldVC animated:YES];
 }
 
 @end

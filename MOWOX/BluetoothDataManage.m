@@ -30,11 +30,183 @@ static BluetoothDataManage *sgetonInstanceData = nil;
 @interface BluetoothDataManage ()
 
 @property (strong, nonatomic)  AppDelegate *appDelegate;
-
+@property (nonatomic, assign) int updateFlag;
 @end
 
 @implementation BluetoothDataManage
-
+- (NSString *)updateFileName{
+    #pragma mark - 2021.10.18 改
+    if ([@"DY002" isEqual:self.updateString]) {
+        _updateFileName = @"DY00274";
+    } else if ([@"DY052" isEqual:self.updateString]) {
+        _updateFileName = @"DY05274";
+    } else if ([@"DY012" isEqual:self.updateString]) {
+        _updateFileName = @"DY01274";
+    } else if ([@"DY112" isEqual:self.updateString]) {
+        _updateFileName = @"DY11274";
+    } else if ([@"DY022" isEqual:self.updateString]) {
+        _updateFileName = @"DY02274";
+    } else if ([@"DY122" isEqual:self.updateString]) {
+        _updateFileName = @"DY12274";
+    } else if ([@"DY142" isEqual:self.updateString]) {
+        _updateFileName = @"DY14274";
+    } else if ([@"DY162" isEqual:self.updateString]) {
+        _updateFileName = @"DY16274";
+    } else if ([@"GY002" isEqual:self.updateString]) {
+        _updateFileName = @"GY00274";
+    } else if ([@"GY052" isEqual:self.updateString]) {
+        _updateFileName = @"GY05274";
+    } else if ([@"GY012" isEqual:self.updateString]) {
+        _updateFileName = @"GY01274";
+    } else if ([@"GY112" isEqual:self.updateString]) {
+        _updateFileName = @"GY11274";
+    } else if ([@"GY022" isEqual:self.updateString]) {
+        _updateFileName = @"GY02274";
+    } else if ([@"GY122" isEqual:self.updateString]) {
+        _updateFileName = @"GY12274";
+    } else if ([@"GY142" isEqual:self.updateString]) {
+        _updateFileName = @"GY14274";
+    } else if ([@"GY162" isEqual:self.updateString]) {
+        _updateFileName = @"GY16274";
+    } else if ([@"DM104" isEqual:self.updateString]) {
+        _updateFileName = @"DM10403";
+    } else if ([@"DM304" isEqual:self.updateString]) {
+        _updateFileName = @"DM30403";
+    } else if ([@"DA104" isEqual:self.updateString]) {
+        _updateFileName = @"DA10402";
+    } else if ([@"DA114" isEqual:self.updateString]) {
+        _updateFileName = @"DA11402";
+    } else if ([@"DA134" isEqual:self.updateString]) {
+        _updateFileName = @"DA13402";
+    }
+    NSLog(@"更新文件包名.....%@",_updateFileName);
+    return _updateFileName;
+}
+- (NSMutableString *)versionString {
+    _versionString  = [[NSMutableString alloc] init];
+    if ([self.versionChar1 isEqualToNumber:@0] && [self.versionChar2 isEqualToNumber:@0]) {
+        if(self.version2 == 2) {
+            [_versionString appendFormat:@"%c", 'D'];
+            [_versionString appendFormat:@"%c", 'Y'];
+        } else if (self.version2 == 3 || self.version2 == 4) {
+            [_versionString appendFormat:@"%c", 'D'];
+            [_versionString appendFormat:@"%c", 'M'];
+        }
+    } else {
+        [_versionString appendFormat:@"%c", [self.versionChar1 charValue]];
+        [_versionString appendFormat:@"%c", [self.versionChar2 charValue]];
+    }
+    
+    [_versionString appendFormat:@"%d", self.sectionvalve];
+    [_versionString appendFormat:@"%d", self.version1];
+    [_versionString appendFormat:@"%d", self.version2];
+    [_versionString appendFormat:@"%d", self.version3];
+    [_versionString appendFormat:@"%d", self.version4];
+    return _versionString;
+}
+- (NSMutableString *)updateString {
+    _updateString  = [[NSMutableString alloc] init];
+    if ([self.versionChar1 isEqualToNumber:@0] && [self.versionChar2 isEqualToNumber:@0]) {
+        if(self.version2 == 2) {
+            [_updateString appendFormat:@"%c", 'D'];
+            [_updateString appendFormat:@"%c", 'Y'];
+        } else if (self.version2 == 3 || self.version2 == 4) {
+            [_updateString appendFormat:@"%c", 'D'];
+            [_updateString appendFormat:@"%c", 'M'];
+        }
+    } else {
+        [_updateString appendFormat:@"%c", [self.versionChar1 charValue]];
+        [_updateString appendFormat:@"%c", [self.versionChar2 charValue]];
+    }
+    
+    
+    [_updateString appendFormat:@"%d", self.sectionvalve];
+    [_updateString appendFormat:@"%d", self.version1];
+    [_updateString appendFormat:@"%d", self.version2];
+    return _updateString;
+}
+- (bool)isUpdateBtnHidden {
+    if ([@"DY002" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY052" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY012" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY112" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY022" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY122" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY142" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DY162" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY002" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY052" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY012" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY112" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY022" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY122" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY142" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"GY162" isEqual:self.updateString]) {
+        return self.updateNum >= 74;
+    } else if ([@"DM104" isEqual:self.updateString]) {
+        return YES;
+    } else if ([@"DM304" isEqual:self.updateString]) {
+        return YES;
+    } else if ([@"DA104" isEqual:self.updateString]) {
+        return self.updateNum >= 3;
+    } else if ([@"DA114" isEqual:self.updateString]) {
+        return self.updateNum >= 2;
+    } else if ([@"DA134" isEqual:self.updateString]) {
+        return self.updateNum >= 2;
+    }
+    return NO;
+}
+#pragma mark - 2021.10.18 改
+- (NSString *)updateFirmwareImageName {
+    
+    if ([@"DY002" isEqual:self.updateString] || [@"DY052" isEqual:self.updateString] ||
+        [@"DM104" isEqual:self.updateString] || [@"DM304" isEqual:self.updateString] ||
+        [@"DA104" isEqual:self.updateString] || [@"DA134" isEqual:self.updateString]) {
+        return @"update_10_18_1";
+    } else if ([@"DA114" isEqual:self.updateString]) {
+        return @"update_10_18_3";
+    } else if ([@"DY012" isEqual:self.updateString] || [@"DY112" isEqual:self.updateString] ||
+               [@"DY122" isEqual:self.updateString] || [@"DY142" isEqual:self.updateString] ||
+               [@"DY162" isEqual:self.updateString] || [@"GY002" isEqual:self.updateString] ||
+               [@"GY052" isEqual:self.updateString] || [@"GY012" isEqual:self.updateString] ||
+               [@"GY112" isEqual:self.updateString] || [@"GY022" isEqual:self.updateString] ||
+               [@"GY122" isEqual:self.updateString] || [@"GY142" isEqual:self.updateString] ||
+               [@"GY162" isEqual:self.updateString]) {
+        return @"update_10_18_2";
+    }
+    return @"update_10_18_1";
+}
+#pragma mark - 2021.10.18 改
+- (bool)updateHelixset {
+    if ([@"DM104" isEqual:self.updateString] || [@"DM304" isEqual:self.updateString]) {
+        return true;
+    } else {
+        return false;
+    }
+    
+}
+- (bool)updateultrasound {
+    if ([@"DM104" isEqual:self.updateString] || [@"DM304" isEqual:self.updateString]) {
+        return false;
+    } else {
+        return true;
+    }
+}
 + (instancetype)shareInstance{
     static dispatch_once_t once;
     dispatch_once(&once, ^{
@@ -285,9 +457,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
 #pragma mark - 处理接收数据
 - (void)handleData:(NSArray *)data
 {
-    /**
-     **用于固件更新
-     **/
+    #pragma mark - 固件更新
     if (![self frameIsRight:data]) {
         //烧固件时判断校验成功or失败
         UInt8 front1 = 0;
@@ -296,12 +466,25 @@ static BluetoothDataManage *sgetonInstanceData = nil;
         UInt8 front4 = 0;
         UInt8 front5 = 0;
         UInt8 front6 = 0;
+        
+        if(data != nil && data.count >= 2) {
+            front1 = [data[0] unsignedCharValue];
+            front2 = [data[1] unsignedCharValue];
+            if (front1 == 255 && front2 == 255){ //更新完成
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSuccese" object:nil userInfo:nil];
+                    
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"progressNumber" object:nil userInfo:nil];
+                self.updateFlag = 0;
+            }
+        }
+        
         if (data != nil && data.count == 6) {
-            
-            if (_updateSucceseFlag == 0) {
+            self.updateReceiveFlag = 1;
+            if (self.updateReceiveFlag == 0) {
                 //最后更新 失败
                 [NSObject showHudTipStr:LocalString(@"FAILED!")];
-                _updateSucceseFlag = 1;
+                self.updateReceiveFlag = 1;
+                
                 return;
             }
             front1 = [data[0] unsignedCharValue];
@@ -310,16 +493,18 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             front4 = [data[3] unsignedCharValue];
             front5 = [data[4] unsignedCharValue];
             front6 = [data[5] unsignedCharValue];
-            if (front1 == 69 && front2 == 79 && front3 == 82 && front4 == 82 && front5 == 79 && front6 == 82){
+            if (front1 == 69 && front2 == 79 && front3 == 82 && front4 == 82 && front5 == 79 && front6 == 82){ //eorror
                 NSMutableDictionary *dataDic = [[NSMutableDictionary alloc] init];
                 NSString *result = @"error";
                 [dataDic setObject:result forKey:@"result"];
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"shaogujian" object:nil userInfo:dataDic];
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"shaogujianOld" object:nil userInfo:dataDic];
             }
-        }else if (data != nil && data.count == 2){
+        } else if (data != nil && data.count == 2){
+            self.updateReceiveFlag = 1;
             front1 = [data[0] unsignedCharValue];
             front2 = [data[1] unsignedCharValue];
-            if (front1 == 79 && front2 == 75) {
+            if (front1 == 79 && front2 == 75 && self.updateFlag == 1) { // 4f 4b ok
                 if (!self.updateFirmware_j) {
                     self.updateFirmware_j = 0;
                 }
@@ -338,7 +523,8 @@ static BluetoothDataManage *sgetonInstanceData = nil;
                     }
                         break;
                     case 1:
-                        self.updateFirmware_packageNum--;
+                        self.updateFirmware_packageNum = self.updateFirmware_packageNum - 1;
+                        NSLog(@"self.updateFirmware_packageNum - %d", self.updateFirmware_packageNum);
                         break;
                     case 2:
                         self.updateFirmware_packageNum_Motor--;
@@ -350,6 +536,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
                     case 4:
                     {
                         self.updateFirmware_packageNum_Right--;
+                        //[[NSNotificationCenter defaultCenter] postNotificationName:@"shaogujian" object:nil userInfo:nil];
                     }
                         break;
                         
@@ -362,42 +549,47 @@ static BluetoothDataManage *sgetonInstanceData = nil;
                 [dataDic setObject:result forKey:@"result"];
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"progressNumber" object:nil userInfo:nil];
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"shaogujian" object:nil userInfo:dataDic];
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"shaogujianOld" object:nil userInfo:dataDic];
                 self.progress_num++;
             }
-            if (front1 == 255 && front2 == 255){
+            if (front1 == 255 && front2 == 255){ //更新完成
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSuccese" object:nil userInfo:nil];
+                
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"progressNumber" object:nil userInfo:nil];
+                self.updateFlag = 0;
+                
             }
-        }else if (data != nil && data.count == 3){
+        }else if (data != nil && data.count == 3){ //更新结束
+            self.updateReceiveFlag = 1;
             front1 = [data[0] unsignedCharValue];
             front2 = [data[1] unsignedCharValue];
             front3 = [data[2] unsignedCharValue];
-            if (front1 == 1 && front2 == 255 && front3 == 255){
-                self.updateSucceseFlag = 2;
+            if (front1 == 1 && front2 == 255 && front3 == 255){ //主程序完成
+                self.updateSucceseFlag = 2; // 电机包--
                 self.updateFirmware_j = 0;
     
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSuccese_main" object:nil userInfo:nil];
                 
             }
-            if (front1 == 2 && front2 == 255 && front3 == 255){
-                self.updateSucceseFlag = 3;
+            if (front1 == 2 && front2 == 255 && front3 == 255){ //割草机电机完成
+                self.updateSucceseFlag = 3; //左电机包--
                 self.updateFirmware_j = 0;
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSuccese_motor" object:nil userInfo:nil];
     
             }
-            if (front1 == 3 && front2 == 255 && front3 == 255){
-                self.updateSucceseFlag = 4;
+            if (front1 == 3 && front2 == 255 && front3 == 255){ //左电机完成
+                self.updateSucceseFlag = 4; //右电机包--
                 self.updateFirmware_j = 0;
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSuccese_left" object:nil userInfo:nil];
                 
             }
-            if (front1 == 4 && front2 == 255 && front3 == 255){
-                self.updateSucceseFlag = 0;
+            if (front1 == 4 && front2 == 255 && front3 == 255){ //右电机完成
+                self.updateSucceseFlag = 0; //完成 查询更新
                 self.updateFirmware_j = 0;
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSuccese_right" object:nil userInfo:nil];
                 
             }
-            if (front1 == 5 && front2 == 255 && front3 == 255){
+            if (front1 == 5 && front2 == 255 && front3 == 255){ //全部完成
                 
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"updateSucceseEnd" object:nil userInfo:nil];
                 
@@ -407,13 +599,13 @@ static BluetoothDataManage *sgetonInstanceData = nil;
     }
     
     /**
-     **对割草机的所有功能响应
-     **/
+     *对割草机的所有功能响应
+     */
     if (_receiveData) {
         [_receiveData removeAllObjects];
         [_receiveData addObjectsFromArray:data];
         self.frameType = [self checkOutType:data];//判断数据类型
-        if (self.frameType == otherFrame || _receiveData.count != 22) {
+        if (self.frameType == otherFrame) {
             
             NSLog(@"接收到未知的数据帧");
             
@@ -424,27 +616,71 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             NSNumber *CPUTemperature = _receiveData[5];
             NSNumber *batterTemperature = _receiveData[6];
             NSNumber *mowerState = _receiveData[7];
-            NSNumber *deviceTypeA = _receiveData[8];
-            NSNumber *version1 = _receiveData[9];
-            NSNumber *version2 = _receiveData[10];
-            NSNumber *version3 = _receiveData[11];
+            NSNumber *version1 = _receiveData[8];
+            NSNumber *version2 = _receiveData[9];
+            NSNumber *version3 = _receiveData[10];
+            #pragma mark - 2021.10.18 改
+            NSNumber *version4 = _receiveData[11];
             NSNumber *robotState = _receiveData[12];
-            _deviceType = [deviceTypeA intValue];
-            _version1 = [version1 intValue];
-            _version2 = [version2 intValue];
-            _version3 = [version3 intValue];
-            _versionupdate = _version1 * 100 + _version2 * 10 + _version3;
+            self.versionChar1 = _receiveData[13];
+            self.versionChar2 = _receiveData[14];
+            _versionString  = [[NSMutableString alloc] init];
+            _updateString  = [[NSMutableString alloc] init];
+            if ([self.versionChar1 isEqualToNumber:@0] && [self.versionChar2 isEqualToNumber:@0]) {
+                _deviceType = @1;
+                if([version2 isEqualToNumber:@2]) {
+                    [_versionString appendFormat:@"%c", 'D'];
+                    [_versionString appendFormat:@"%c", 'Y'];
+                    [self.updateString appendFormat:@"%c", 'D'];
+                    [self.updateString appendFormat:@"%c", 'Y'];
+                } else if ([version2 isEqualToNumber:@3] || [version2 isEqualToNumber:@4]) {
+                    [_versionString appendFormat:@"%c", 'D'];
+                    [_versionString appendFormat:@"%c", 'M'];
+                    [_updateString appendFormat:@"%c", 'D'];
+                    [_updateString appendFormat:@"%c", 'M'];
+                }
+            } else {
+                _deviceType = @2;
+                [_versionString appendFormat:@"%c", [self.versionChar1 charValue]];
+                [_versionString appendFormat:@"%c", [self.versionChar2 charValue]];
+                [_updateString appendFormat:@"%c", [self.versionChar1 charValue]];
+                [_updateString appendFormat:@"%c", [self.versionChar2 charValue]];
+            }
             
+    
+            self.version1 = [version1 intValue];
+            self.version2 = [version2 intValue];
+            self.version3 = [version3 intValue];
+            self.version4 = [version4 intValue];
+            self.updateNum = self.version3 * 10 + self.version4;
+            [_versionString appendFormat:@"%d", self.sectionvalve];
+            [_versionString appendFormat:@"%d", self.version1];
+            [_versionString appendFormat:@"%d", self.version2];
+            [_versionString appendFormat:@"%d", self.version3];
+            [_versionString appendFormat:@"%d", self.version4];
+            
+            _versionupdate = self.version2 * 100 + self.version3 * 10 + self.version4;
             [dataDic setObject:batterData forKey:@"batterData"];
             [dataDic setObject:CPUTemperature forKey:@"CPUTemperature"];
             [dataDic setObject:batterTemperature forKey:@"batterTemperature"];
             [dataDic setObject:mowerState forKey:@"mowerState"];
             [dataDic setObject:robotState forKey:@"robotState"];
+            
+            [self isUpdateBtnHidden];
+            [self updateFirmwareImageName];
             [[NSNotificationCenter defaultCenter] postNotificationName:@"getMowerData" object:nil userInfo:dataDic];
             
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-            [defaults setObject:deviceTypeA forKey:@"deviceType"];
+            [defaults setObject:_deviceType forKey:@"deviceType"];
             [defaults synchronize];
+            
+            
+            [_updateString appendFormat:@"%d", self.sectionvalve];
+            [_updateString appendFormat:@"%d", self.version1];
+            [_updateString appendFormat:@"%d", self.version2];
+            [defaults setObject:self.updateString forKey:@"updateString"];
+            [defaults synchronize];
+            
             [[NSNotificationCenter defaultCenter] postNotificationName:@"getDeviceType" object:nil userInfo:nil];
         }else if (self.frameType == getAlerts){
             NSLog(@"接收到getAlerts");
@@ -490,7 +726,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             
             NSMutableDictionary *dataDic = [[NSMutableDictionary alloc] init];
             if (self.versionupdate < 268) {
-                
+                //老版本
                 NSNumber *monStart = _receiveData[4];
                 NSNumber *monWork = _receiveData[5];
                 NSNumber *tueStart = _receiveData[6];
@@ -597,8 +833,14 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             NSMutableDictionary *dataDic = [[NSMutableDictionary alloc] init];
             NSNumber *rain = _receiveData[4];
             NSNumber *boundary = _receiveData[5];
+            NSNumber *helix = _receiveData[7];
+            NSNumber *hour = _receiveData[8];
+            NSNumber *min = _receiveData[9];
             [dataDic setObject:rain forKey:@"rain"];
             [dataDic setObject:boundary forKey:@"boundary"];
+            [dataDic setObject:helix forKey:@"helix"];
+            [dataDic setObject:hour forKey:@"hour"];
+            [dataDic setObject:min forKey:@"min"];
             if ([BluetoothDataManage shareInstance].version1 == 4) {
                 NSNumber *ultrasound = _receiveData[6];
                 [dataDic setObject:ultrasound forKey:@"ultrasound"];
@@ -606,7 +848,11 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             }
             [[NSNotificationCenter defaultCenter] postNotificationName:@"recieveMowerSetting" object:nil userInfo:dataDic];
         }else if (self.frameType == updateFirmware){
+            
             [[NSNotificationCenter defaultCenter] postNotificationName:@"recieveUpdateFirmware" object:nil userInfo:nil];
+            self.updateFlag = 1;
+              
+            
         }else if (self.frameType == getPinCode){
             NSNumber *thousand = _receiveData[4];
             NSNumber *hungred = _receiveData[5];
@@ -699,19 +945,6 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             
             [dataDic setObject:bladeUserTimeStr forKey:@"bladeUserTimeStr"];
             [[NSNotificationCenter defaultCenter] postNotificationName:@"recieveBladeUserTime" object:nil userInfo:dataDic];
-        }else if (self.frameType ==updateFlag){
-                    //0x08只更新固件 0x0f所有的固件都更新
-                    self.isUpdateFirmware = YES;
-                    [[NSNotificationCenter defaultCenter] postNotificationName:@"updateFlag" object:nil userInfo:nil];
-                    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                        UInt8 controlCode = 0x08;
-                        [[BluetoothDataManage shareInstance] formMotorData:controlCode];
-                    });
-        //            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        //                UInt8 controlCode = 0x0f;
-        //                [[BluetoothDataManage shareInstance] formMotorData:controlCode];
-        //            });
-                    
         }
     }
 }

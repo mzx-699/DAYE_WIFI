@@ -11,13 +11,16 @@
 #import <GizWifiSDK/GizWifiSDK.h>
 #import <objc/runtime.h>
 
-@interface RegisterViewController () <UITextFieldDelegate,GizWifiSDKDelegate>
+@interface RegisterViewController () <UITextFieldDelegate,GizWifiSDKDelegate,UIDocumentInteractionControllerDelegate>
 
 @property (nonatomic, strong) UITextField *emailTF;
 @property (nonatomic, strong) UITextField *passwordTF;
 @property (nonatomic, strong) UITextField *repeatpasswordTF;
 @property (nonatomic, strong) UISwitch *agreeSwitch;
+@property (nonatomic, strong) UIButton *agreeBtn;
 @property (nonatomic, strong) UIButton *RegisterBtn;
+@property (nonatomic, strong) UIDocumentInteractionController *document;
+
 
 @property (nonatomic, strong) UILabel *agreeLabel;
 
@@ -36,12 +39,10 @@
     _passwordTF = [self passwordTF];
     _repeatpasswordTF = [self repeatpasswordTF];
     _RegisterBtn = [self RegisterBtn];
-    //_agreeSwitch = [self agreeSwitch];
-    //_agreeLabel = [self agreeLabel];
+    _agreeSwitch = [self agreeSwitch];
+    _agreeLabel = [self agreeLabel];
+    _agreeBtn = [self agreeBtn];
     [GizWifiSDK sharedInstance].delegate = self;
-    
-
-    
 }
 
 - (void)setNavItem{
@@ -152,7 +153,7 @@
         [_agreeSwitch addTarget:self action:@selector(switchAction) forControlEvents:UIControlEventValueChanged];
         [self.view addSubview:_agreeSwitch];
         [_agreeSwitch mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.size.mas_equalTo(CGSizeMake(60/WScale, 30/HScale));
+            make.size.mas_equalTo(CGSizeMake(45/WScale, 30/HScale));
             make.top.equalTo(self.repeatpasswordTF.mas_bottom).offset(30/HScale);
             make.leftMargin.mas_equalTo(self.repeatpasswordTF.mas_leftMargin);
         }];
@@ -167,15 +168,34 @@
         _agreeLabel.backgroundColor = [UIColor clearColor];
         _agreeLabel.textColor = [UIColor whiteColor];
         _agreeLabel.textAlignment = NSTextAlignmentLeft;
-        _agreeLabel.text = LocalString(@"I agree to the Terms of Use");
+        _agreeLabel.text = LocalString(@"I agree with the ");
         [self.view addSubview:_agreeLabel];
         [_agreeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.size.mas_equalTo(CGSizeMake(300/WScale, 20/HScale));
             make.left.equalTo(self.agreeSwitch.mas_right).offset(15/WScale);
-            make.top.equalTo(self.repeatpasswordTF.mas_bottom).offset(30/HScale);
+            make.centerY.equalTo(self.agreeSwitch.mas_centerY).offset(-10/HScale);
         }];
+        [_agreeLabel sizeToFit];
     }
     return _agreeLabel;
+}
+
+- (UIButton *)agreeBtn{
+    if (!_agreeBtn) {
+        _agreeBtn = [[UIButton alloc] init];
+        [_agreeBtn.titleLabel setFont:[UIFont systemFontOfSize:15.f]];
+        [_agreeBtn.titleLabel setTextAlignment:NSTextAlignmentLeft];
+        [_agreeBtn setBackgroundColor:[UIColor clearColor]];
+        [_agreeBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        [_agreeBtn setTitle:LocalString(@"Terms of Service and Privacy policy") forState:UIControlStateNormal];
+        [_agreeBtn addTarget:self action:@selector(agreeBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:_agreeBtn];
+        [_agreeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(self.agreeSwitch.mas_right).offset(15/WScale);
+            make.centerY.equalTo(self.agreeSwitch.mas_centerY).offset(10/HScale);
+        }];
+        [_agreeBtn sizeToFit];
+    }
+    return _agreeBtn;
 }
 
 - (UIButton *)RegisterBtn{
@@ -190,7 +210,7 @@
         [self.view addSubview:_RegisterBtn];
         [_RegisterBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(280/WScale, 40/HScale));
-            make.top.equalTo(self.repeatpasswordTF.mas_bottom).offset(45/HScale);
+            make.top.equalTo(self.agreeSwitch.mas_bottom).offset(20/HScale);
             make.centerX.mas_equalTo(self.view.mas_centerX);
         }];
         
@@ -205,11 +225,11 @@
 
 //监听文本框事件
 - (void)textFieldTextChange:(UITextField *)textField{
-    if ( _repeatpasswordTF.text.length > 0 && _passwordTF.text.length > 0){
+    if ( _repeatpasswordTF.text.length > 0 && _passwordTF.text.length > 0 && _agreeSwitch.isOn){
         [_RegisterBtn setBackgroundColor:[UIColor colorWithRed:71/255.0 green:120/255.0 blue:204/255.0 alpha:1]];
         _RegisterBtn.enabled = YES;
     }else{
-        [_RegisterBtn setBackgroundColor:[UIColor colorWithRed:71/255.0 green:120/255.0 blue:204/255.0 alpha:0.4]];
+        [_RegisterBtn setBackgroundColor:[UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:0.6]];
         _RegisterBtn.enabled = NO;
     }
 }
@@ -248,10 +268,42 @@
     }
     
 }
+- (UIDocumentInteractionController *)document {
+    if (!_document) {
+        NSURL *url = [[NSBundle mainBundle] URLForResource:@"daye" withExtension:@"pdf"];
+        NSLog(@"%@", url);
+        _document = [UIDocumentInteractionController interactionControllerWithURL:url];
+        _document.delegate = self;
+    }
+    return _document;
+}
 
--(void)switchAction{
+- (void)agreeBtnClick {
+    [self document];
+    [self.document presentPreviewAnimated:YES];
+    NSLog(@"agreeBtnClick");
     
-    NSLog(@"tt");
+}
+-(void)presentOptionsMenu{
+    
+    [self.document presentOptionsMenuFromRect:self.view.bounds inView:self.view animated:YES];
+}
+#pragma mark UIDocumentInteractionControllerDelegate
+-(UIViewController *)documentInteractionControllerViewControllerForPreview:(UIDocumentInteractionController *)controller{
+    
+    //注意：此处要求的控制器，必须是它的页面view，已经显示在window之上了
+    return self;
+    
+}
+-(void)switchAction{
+
+    if ( _repeatpasswordTF.text.length > 0 && _passwordTF.text.length > 0 && _agreeSwitch.isOn){
+        [_RegisterBtn setBackgroundColor:[UIColor colorWithRed:71/255.0 green:120/255.0 blue:204/255.0 alpha:1]];
+        _RegisterBtn.enabled = YES;
+    }else{
+        [_RegisterBtn setBackgroundColor:[UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:0.6]];
+        _RegisterBtn.enabled = NO;
+    }
     
 }
 

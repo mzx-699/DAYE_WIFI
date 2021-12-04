@@ -8,7 +8,10 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
+#import "RegisterViewController.h"
 #import "ChangeViewController.h"
+#import "IQKeyboardManager.h"
+#import "YULanguageManager.h"
 #import "SelectModelViewController.h"
 #import <Bugly/Bugly.h>
 
@@ -26,7 +29,8 @@
     [self customizeInterface];
     [self initGiz];
     [self BuglyInit];
-    
+    [self keyBoardManager];
+    [YULanguageManager setUserLanguage:nil];
     _status = 1;
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
@@ -35,6 +39,7 @@
 //    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
 //    self.window.rootViewController = nav;
 //    SelectModelViewController *vc = [[SelectModelViewController alloc] init];
+//    RegisterViewController *vc = [[RegisterViewController alloc] init];
     ChangeViewController *vc = [[ChangeViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
@@ -110,5 +115,14 @@
 - (void)BuglyInit{
     //错误日志上报
     [Bugly startWithAppId:@"a309365f69"];
+}
+
+- (void)keyBoardManager{
+    
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.toolbarDoneBarButtonItemText = LocalString(@"Done");
+    manager.shouldResignOnTouchOutside = YES;//键盘弹出时，点击背景，键盘收回
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    
 }
 @end

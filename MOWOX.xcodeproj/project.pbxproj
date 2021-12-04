@@ -274,6 +274,32 @@
 		3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF771A61FAAA38A00EC016A /* up@1x.png */; };
 		3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */; };
 		3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */; };
+		73199EF02754C06F002C3E2A /* daye.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73199EEF2754C06F002C3E2A /* daye.pdf */; };
+		737D25FD2755FF9A003D698F /* update_10_18_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FA2755FF98003D698F /* update_10_18_2@2x.png */; };
+		737D25FE2755FF9A003D698F /* update_10_18_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FB2755FF99003D698F /* update_10_18_1@2x.png */; };
+		737D25FF2755FF9A003D698F /* update_10_18_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FC2755FF99003D698F /* update_10_18_3@2x.png */; };
+		737D2615275615CE003D698F /* DM10403.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2601275615CE003D698F /* DM10403.bin */; };
+		737D2616275615CE003D698F /* GY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2602275615CE003D698F /* GY11274.bin */; };
+		737D2617275615CE003D698F /* DY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2603275615CE003D698F /* DY16274.bin */; };
+		737D2618275615CE003D698F /* GY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2604275615CE003D698F /* GY01274.bin */; };
+		737D2619275615CE003D698F /* DY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2605275615CE003D698F /* DY14274.bin */; };
+		737D261A275615CE003D698F /* DY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2606275615CE003D698F /* DY02274.bin */; };
+		737D261B275615CE003D698F /* GY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2607275615CE003D698F /* GY05274.bin */; };
+		737D261C275615CE003D698F /* DY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2608275615CE003D698F /* DY00274.bin */; };
+		737D261D275615CE003D698F /* DA10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2609275615CE003D698F /* DA10402.bin */; };
+		737D261E275615CE003D698F /* DY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D260A275615CE003D698F /* DY12274.bin */; };
+		737D261F275615CE003D698F /* DY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D260B275615CE003D698F /* DY05274.bin */; };
+		737D2620275615CE003D698F /* GY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D260C275615CE003D698F /* GY02274.bin */; };
+		737D2621275615CE003D698F /* GY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D260D275615CE003D698F /* GY12274.bin */; };
+		737D2622275615CE003D698F /* GY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D260E275615CE003D698F /* GY00274.bin */; };
+		737D2623275615CE003D698F /* GY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D260F275615CE003D698F /* GY16274.bin */; };
+		737D2624275615CE003D698F /* DY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2610275615CE003D698F /* DY11274.bin */; };
+		737D2625275615CE003D698F /* DA13402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2611275615CE003D698F /* DA13402.bin */; };
+		737D2626275615CE003D698F /* GY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2612275615CE003D698F /* GY14274.bin */; };
+		737D2627275615CE003D698F /* DY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2613275615CE003D698F /* DY01274.bin */; };
+		737D2628275615CE003D698F /* DA11402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 737D2614275615CE003D698F /* DA11402.bin */; };
+		737D262B275755EE003D698F /* RainDelayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D262A275755EE003D698F /* RainDelayView.m */; };
+		73899ACE2759F18D0096A53D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB1299302021A79500285201 /* Localizable.strings */; };
 		BB01A121254FE2FC00BC5340 /* DM10401.BIN in Resources */ = {isa = PBXBuildFile; fileRef = BB01A120254FE2FC00BC5340 /* DM10401.BIN */; };
 		BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */; };
 		BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */; };
@@ -282,7 +308,6 @@
 		BB0F9144200C7E370060D287 /* LMPopInputPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0F9143200C7E370060D287 /* LMPopInputPasswordView.m */; };
 		BB0F914E200C7EFB0060D287 /* WTReTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0F914B200C7EFB0060D287 /* WTReTextField.m */; };
 		BB0F914F200C7EFB0060D287 /* WTReParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0F914C200C7EFB0060D287 /* WTReParser.m */; };
-		BB12992E2021A79500285201 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB1299302021A79500285201 /* Localizable.strings */; };
 		BB2A1EDA2533ECE10039251F /* Welc.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2A1ED92533ECE10039251F /* Welc.png */; };
 		BB2CF26821DF4436008DA45E /* img_logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2CF26721DF4436008DA45E /* img_logout@2x.png */; };
 		BB37DA402043B7FC0078504A /* B3_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB37DA3D2043B7FB0078504A /* B3_50@2x.png */; };
@@ -678,7 +703,6 @@
 		3E63252C1FA6BC5F00F14462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E63252F1FA6BC5F00F14462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E6325341FA6BC5F00F14462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3E6325361FA6BC5F00F14462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E63253D1FA6C17C00F14462 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3E63253E1FA6C17C00F14462 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3E6325531FA6D09400F14462 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "image/background@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -739,6 +763,33 @@
 		3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蓝牙@1x.png"; path = "image/蓝牙@1x.png"; sourceTree = SOURCE_ROOT; };
 		3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蓝牙断开@1x.png"; path = "image/蓝牙断开@1x.png"; sourceTree = SOURCE_ROOT; };
 		41AF602D45B7AE4EE6CB78D8 /* Pods-MOWOX.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.provisioning profile.xcconfig"; sourceTree = "<group>"; };
+		73199EEF2754C06F002C3E2A /* daye.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = daye.pdf; sourceTree = "<group>"; };
+		737D25FA2755FF98003D698F /* update_10_18_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_2@2x.png"; sourceTree = "<group>"; };
+		737D25FB2755FF99003D698F /* update_10_18_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_1@2x.png"; sourceTree = "<group>"; };
+		737D25FC2755FF99003D698F /* update_10_18_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_3@2x.png"; sourceTree = "<group>"; };
+		737D2601275615CE003D698F /* DM10403.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10403.bin; sourceTree = "<group>"; };
+		737D2602275615CE003D698F /* GY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY11274.bin; sourceTree = "<group>"; };
+		737D2603275615CE003D698F /* DY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY16274.bin; sourceTree = "<group>"; };
+		737D2604275615CE003D698F /* GY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY01274.bin; sourceTree = "<group>"; };
+		737D2605275615CE003D698F /* DY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY14274.bin; sourceTree = "<group>"; };
+		737D2606275615CE003D698F /* DY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY02274.bin; sourceTree = "<group>"; };
+		737D2607275615CE003D698F /* GY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY05274.bin; sourceTree = "<group>"; };
+		737D2608275615CE003D698F /* DY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00274.bin; sourceTree = "<group>"; };
+		737D2609275615CE003D698F /* DA10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA10402.bin; sourceTree = "<group>"; };
+		737D260A275615CE003D698F /* DY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY12274.bin; sourceTree = "<group>"; };
+		737D260B275615CE003D698F /* DY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05274.bin; sourceTree = "<group>"; };
+		737D260C275615CE003D698F /* GY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY02274.bin; sourceTree = "<group>"; };
+		737D260D275615CE003D698F /* GY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY12274.bin; sourceTree = "<group>"; };
+		737D260E275615CE003D698F /* GY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY00274.bin; sourceTree = "<group>"; };
+		737D260F275615CE003D698F /* GY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY16274.bin; sourceTree = "<group>"; };
+		737D2610275615CE003D698F /* DY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY11274.bin; sourceTree = "<group>"; };
+		737D2611275615CE003D698F /* DA13402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA13402.bin; sourceTree = "<group>"; };
+		737D2612275615CE003D698F /* GY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY14274.bin; sourceTree = "<group>"; };
+		737D2613275615CE003D698F /* DY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY01274.bin; sourceTree = "<group>"; };
+		737D2614275615CE003D698F /* DA11402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA11402.bin; sourceTree = "<group>"; };
+		737D2629275755ED003D698F /* RainDelayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainDelayView.h; sourceTree = "<group>"; };
+		737D262A275755EE003D698F /* RainDelayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainDelayView.m; sourceTree = "<group>"; };
+		73899ACC2759F0950096A53D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.debug.xcconfig"; sourceTree = "<group>"; };
 		9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BC601C08829689A12A004A /* Pods-Giz_Mower.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.provisioning profile.xcconfig"; sourceTree = "<group>"; };
@@ -1086,6 +1137,9 @@
 			children = (
 				3644AFA124F75B130063D913 /* icon_check.png */,
 				3644AF9F24F75AFB0063D913 /* 10.png */,
+				737D25FB2755FF99003D698F /* update_10_18_1@2x.png */,
+				737D25FA2755FF98003D698F /* update_10_18_2@2x.png */,
+				737D25FC2755FF99003D698F /* update_10_18_3@2x.png */,
 				3644AF7A24F67FB30063D913 /* img_device_LCDhelp.png */,
 				3644AF7924F67FB30063D913 /* img_device_Simplehelp.png */,
 				3644AF7824F67FB30063D913 /* img_device.png */,
@@ -1175,6 +1229,8 @@
 				BB8291AD21CA2BCA000AC4D4 /* LandroidListCell.m */,
 				36BEE7102445EC6900684369 /* WorktimeCell_268.h */,
 				36BEE7112445EC6900684369 /* WorktimeCell_268.m */,
+				737D2629275755ED003D698F /* RainDelayView.h */,
+				737D262A275755EE003D698F /* RainDelayView.m */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -1291,12 +1347,14 @@
 				3E6325291FA6BC5F00F14462 /* AppDelegate.m */,
 				3E63252B1FA6BC5F00F14462 /* ViewController.h */,
 				3E63252C1FA6BC5F00F14462 /* ViewController.m */,
+				73899ACC2759F0950096A53D /* Info.plist */,
+				737D2600275615CE003D698F /* bin */,
+				73199EEF2754C06F002C3E2A /* daye.pdf */,
 				3E63252E1FA6BC5F00F14462 /* Main.storyboard */,
 				3E6325331FA6BC5F00F14462 /* LaunchScreen.storyboard */,
 				36605E542253855500849403 /* Images.xcassets */,
 				36F0FCE32456C599006B1ABA /* MOWER Pro_icon */,
 				BB1299302021A79500285201 /* Localizable.strings */,
-				3E6325361FA6BC5F00F14462 /* Info.plist */,
 				3E6325251FA6BC5F00F14462 /* Supporting Files */,
 				BBA446562101742A00D3B30E /* MOWOXROBOT */,
 			);
@@ -1409,6 +1467,33 @@
 				3EC5FC9E1FD52C9600F1CB7F /* inputTextField.m */,
 			);
 			name = TextField;
+			sourceTree = "<group>";
+		};
+		737D2600275615CE003D698F /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				737D2601275615CE003D698F /* DM10403.bin */,
+				737D2602275615CE003D698F /* GY11274.bin */,
+				737D2603275615CE003D698F /* DY16274.bin */,
+				737D2604275615CE003D698F /* GY01274.bin */,
+				737D2605275615CE003D698F /* DY14274.bin */,
+				737D2606275615CE003D698F /* DY02274.bin */,
+				737D2607275615CE003D698F /* GY05274.bin */,
+				737D2608275615CE003D698F /* DY00274.bin */,
+				737D2609275615CE003D698F /* DA10402.bin */,
+				737D260A275615CE003D698F /* DY12274.bin */,
+				737D260B275615CE003D698F /* DY05274.bin */,
+				737D260C275615CE003D698F /* GY02274.bin */,
+				737D260D275615CE003D698F /* GY12274.bin */,
+				737D260E275615CE003D698F /* GY00274.bin */,
+				737D260F275615CE003D698F /* GY16274.bin */,
+				737D2610275615CE003D698F /* DY11274.bin */,
+				737D2611275615CE003D698F /* DA13402.bin */,
+				737D2612275615CE003D698F /* GY14274.bin */,
+				737D2613275615CE003D698F /* DY01274.bin */,
+				737D2614275615CE003D698F /* DA11402.bin */,
+			);
+			path = bin;
 			sourceTree = "<group>";
 		};
 		ABFF92C4CAECF0C1C642BC34 /* Pods */ = {
@@ -1758,11 +1843,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737D2618275615CE003D698F /* GY01274.bin in Resources */,
 				3644AF7D24F67FB30063D913 /* img_device_LCDhelp.png in Resources */,
 				3644AF7124F67F930063D913 /* img_lcdModelHelp1.png in Resources */,
 				3E1480651FCFEF1400FA8A2D /* A6@2x.png in Resources */,
 				36C6BEA724D4109C00E5B7F6 /* DY01273.BIN in Resources */,
+				737D2620275615CE003D698F /* GY02274.bin in Resources */,
 				36C6BEA924D4109C00E5B7F6 /* DY12273.BIN in Resources */,
+				737D25FF2755FF9A003D698F /* update_10_18_3@2x.png in Resources */,
 				3E3561FF1FB4560E00135503 /* 返回绿色@1x.png in Resources */,
 				36067D9321BF5CEB00FB6865 /* updateFirmwareTip0@2x.png in Resources */,
 				3E43AD321FAAF4E100924616 /* 电量2@1x.png in Resources */,
@@ -1770,6 +1858,8 @@
 				BBB611252019B111007FA3D4 /* 120x120@2x.png in Resources */,
 				3E1480511FCFEF1400FA8A2D /* 机器人APP1+2(1)-3.png in Resources */,
 				3EE3DC481FA8B2BE0049B8F7 /* 右转@2x.png in Resources */,
+				737D2622275615CE003D698F /* GY00274.bin in Resources */,
+				737D2626275615CE003D698F /* GY14274.bin in Resources */,
 				36F0FCFB2456C599006B1ABA /* iphone60pt@3x.png in Resources */,
 				3644AF7724F67F930063D913 /* img_lcdHelpWifi.png in Resources */,
 				BB479EFA208D6F9200B19D6A /* 180*180@3x.png in Resources */,
@@ -1795,12 +1885,17 @@
 				BBA14A1B250A2214008DCC3A /* ipad76pt@1x.png in Resources */,
 				BB0A37B12015944D00E5FD94 /* A3_50@2x.png in Resources */,
 				36FE81C321DE0A7200BD29F4 /* not password@2x.png in Resources */,
+				737D261E275615CE003D698F /* DY12274.bin in Resources */,
 				BB8D9490213FE33C0079EE63 /* DeviceTableViewCell.xib in Resources */,
 				BB479EF4208D6F9200B19D6A /* 60*60@2x.png in Resources */,
 				BB37DA402043B7FC0078504A /* B3_50@2x.png in Resources */,
+				737D261B275615CE003D698F /* GY05274.bin in Resources */,
 				3644AF4724F658970063D913 /* xianbuyong.png in Resources */,
 				3E1480531FCFEF1400FA8A2D /* loginView@2x.png in Resources */,
+				737D2615275615CE003D698F /* DM10403.bin in Resources */,
 				36009B8321F0261B00245D71 /* Welcome1_5.5@2x.png in Resources */,
+				737D261A275615CE003D698F /* DY02274.bin in Resources */,
+				737D25FE2755FF9A003D698F /* update_10_18_1@2x.png in Resources */,
 				3E1480801FD00C0700FA8A2D /* A2@2x.png in Resources */,
 				BB513EF72140DAC4000D2A5E /* ic_nav_more_black@3x.png in Resources */,
 				BBB611272019B111007FA3D4 /* 60x60@3x.png in Resources */,
@@ -1809,7 +1904,6 @@
 				BB479EFE208D6F9200B19D6A /* 87*87@3x.png in Resources */,
 				36F0FD022456C599006B1ABA /* iphone20pt@3x.png in Resources */,
 				3E11A3871FD90AAD000CAA08 /* icon-60@3x.png in Resources */,
-				BB12992E2021A79500285201 /* Localizable.strings in Resources */,
 				3644AF5824F658980063D913 /* 返回1@2x.png in Resources */,
 				36009B7F21F0260B00245D71 /* Welcome@2x.png in Resources */,
 				BB37DA422043B7FC0078504A /* B2_50@2x.png in Resources */,
@@ -1822,9 +1916,11 @@
 				3E14804C1FCFEF1400FA8A2D /* xianbuyong.png in Resources */,
 				3644AF4824F658970063D913 /* img_model1_help.png in Resources */,
 				3E43ACE31FAAB39C00924616 /* Pinsetting@1x.png in Resources */,
+				73899ACE2759F18D0096A53D /* Localizable.strings in Resources */,
 				3EF771AA1FAAA38A00EC016A /* right@1x.png in Resources */,
 				18C2ADE32653B980000142A1 /* dv_ok.png in Resources */,
 				BB479EF9208D6F9200B19D6A /* 120*120@3x.png in Resources */,
+				737D2619275615CE003D698F /* DY14274.bin in Resources */,
 				3E11A38B1FD90AAD000CAA08 /* 80@3x.png in Resources */,
 				3E5815C01FAFF72300E93520 /* WorkingtimeSetting@1x.png in Resources */,
 				BBCCA45B2019B84C00423650 /* 80x80@2x.png in Resources */,
@@ -1835,6 +1931,7 @@
 				3EF771A91FAAA38A00EC016A /* left@1x.png in Resources */,
 				3644AF5024F658970063D913 /* img_LCDmodel1_help.png in Resources */,
 				3E1480631FCFEF1400FA8A2D /* 蓝牙连接@2x.png in Resources */,
+				73199EF02754C06F002C3E2A /* daye.pdf in Resources */,
 				36F0FD072456C599006B1ABA /* ipad76pt@2x.png in Resources */,
 				BBA14A1C250A2214008DCC3A /* iphone20pt@2x.png in Resources */,
 				BB479EF5208D6F9200B19D6A /* 1024.png in Resources */,
@@ -1842,6 +1939,7 @@
 				BBB611222019B111007FA3D4 /* 180x180@3x.png in Resources */,
 				3E63255A1FA6DB7900F14462 /* login@2x.png in Resources */,
 				BB479EF8208D6F9200B19D6A /* 60*60@3x.png in Resources */,
+				737D261C275615CE003D698F /* DY00274.bin in Resources */,
 				3E3562001FB4560E00135503 /* bluetoothImage@1x.png in Resources */,
 				18C2AE042653B9E4000142A1 /* dv_btn2.png in Resources */,
 				3E22E2A51FA9A7B8000BC792 /* wifi@2x.png in Resources */,
@@ -1858,6 +1956,7 @@
 				3EE3DC461FA8B2BE0049B8F7 /* 后退@2x.png in Resources */,
 				3E2454271FBD224E00095FBE /* 割草机@3x.png in Resources */,
 				3E11A38C1FD90AAD000CAA08 /* 87@3x.png in Resources */,
+				737D2627275615CE003D698F /* DY01274.bin in Resources */,
 				36F0FCFA2456C599006B1ABA /* 1024x1024.png in Resources */,
 				3644AF2624F652260063D913 /* img_addDevice_NextBtn.png in Resources */,
 				36FE81C421DE0A7200BD29F4 /* rememberpassword@2x.png in Resources */,
@@ -1875,18 +1974,23 @@
 				3E43ACE51FAAB39C00924616 /* signal@1x.png in Resources */,
 				36FE81BE21DDBB5B00BD29F4 /* ic_eyespassword@1x.png in Resources */,
 				36605E552253855500849403 /* Images.xcassets in Resources */,
+				737D261F275615CE003D698F /* DY05274.bin in Resources */,
+				737D2624275615CE003D698F /* DY11274.bin in Resources */,
 				18C2AE002653B9DA000142A1 /* dv_con.png in Resources */,
 				36009B8221F0261B00245D71 /* Welcome1_4.7@2x.png in Resources */,
 				3E1480501FCFEF1400FA8A2D /* launchImage@2x.png in Resources */,
 				3644AF5E24F658980063D913 /* A3@3x.png in Resources */,
+				737D2625275615CE003D698F /* DA13402.bin in Resources */,
 				3E2F25331FB946EF00E79C23 /* WorkingtimeSetting@2x.png in Resources */,
 				3EF771A81FAAA38A00EC016A /* home@1x.png in Resources */,
 				3E43AD331FAAF4E100924616 /* 电量3@1x.png in Resources */,
 				BBB611232019B111007FA3D4 /* 40x40@2x.png in Resources */,
 				36C6BEAA24D4109C00E5B7F6 /* DY02273.BIN in Resources */,
+				737D2623275615CE003D698F /* GY16274.bin in Resources */,
 				36FE81C821DE0B6400BD29F4 /* device@2x.png in Resources */,
 				BB513EF12140C7A9000D2A5E /* img_wifi@1x.png in Resources */,
 				3658FEFD2530522B00815B94 /* DY15273.BIN in Resources */,
+				737D261D275615CE003D698F /* DA10402.bin in Resources */,
 				3644AF4A24F658970063D913 /* img_LCDmodel2_help.png in Resources */,
 				BB479EFB208D6F9200B19D6A /* 120*120@2x.png in Resources */,
 				BB5C49CB207D9B28007B2508 /* updateFirmwareTip@2x.png in Resources */,
@@ -1899,10 +2003,12 @@
 				36F0FD052456C599006B1ABA /* 167X167.png in Resources */,
 				3E2F25301FB946EF00E79C23 /* Generalsetting@2x.png in Resources */,
 				3644AFA224F75B130063D913 /* icon_check.png in Resources */,
+				737D2616275615CE003D698F /* GY11274.bin in Resources */,
 				18C2ADE62653B98A000142A1 /* dv_model2.png in Resources */,
 				3E14806C1FCFFA8C00FA8A2D /* 电量2-2@1x.png in Resources */,
 				3E22E2A61FA9A7B8000BC792 /* zx_code_line@2x.png in Resources */,
 				3644AF5924F658980063D913 /* 蓝牙连接@2x.png in Resources */,
+				737D2628275615CE003D698F /* DA11402.bin in Resources */,
 				3E6325581FA6D8F000F14462 /* 选中@1x.png in Resources */,
 				3644AF7B24F67FB30063D913 /* img_device.png in Resources */,
 				3E5815D31FB0059500E93520 /* Back@1x.png in Resources */,
@@ -1914,6 +2020,7 @@
 				3E14807B1FD0042D00FA8A2D /* backgroundnew@2x.png in Resources */,
 				3E43AD341FAAF4E100924616 /* 电量4@1x.png in Resources */,
 				3E43ACE61FAAB39C00924616 /* whether@1x.png in Resources */,
+				737D2621275615CE003D698F /* GY12274.bin in Resources */,
 				3E63255D1FA6F8C500F14462 /* 未选中@2x.png in Resources */,
 				3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */,
 				3658FEFB2530522B00815B94 /* DY05273.BIN in Resources */,
@@ -1926,6 +2033,7 @@
 				BB479EFD208D6F9200B19D6A /* 1024*1024@1x.png in Resources */,
 				365E6BFF24F8F4670067E737 /* DY0R008.BIN in Resources */,
 				BBB611282019B111007FA3D4 /* 58x58@2x.png in Resources */,
+				737D2617275615CE003D698F /* DY16274.bin in Resources */,
 				3644AF5B24F658980063D913 /* 返回@2x.png in Resources */,
 				3E2454251FBD1F1000095FBE /* 割草机@2x.png in Resources */,
 				3E43ACDD1FAAB39C00924616 /* backview@1x.png in Resources */,
@@ -1963,6 +2071,7 @@
 				3E1480791FD0042D00FA8A2D /* 蓝牙连接@1x.png in Resources */,
 				BBC4AB802102D8C100F49BDC /* LaunchScreen.storyboard in Resources */,
 				BB2A1EDA2533ECE10039251F /* Welc.png in Resources */,
+				737D25FD2755FF9A003D698F /* update_10_18_2@2x.png in Resources */,
 				BB37DA412043B7FC0078504A /* B1_50@2x.png in Resources */,
 				3E43AD311FAAF4E100924616 /* 电量1@1x.png in Resources */,
 				3E14806F1FCFFA8C00FA8A2D /* 电量5-2@1x.png in Resources */,
@@ -2093,6 +2202,7 @@
 				3E5D74F61FCD583A007F8E71 /* connectButton.m in Sources */,
 				3E1951411FC2B5C100B38EAB /* AlertsViewController.m in Sources */,
 				3644AFA824F762690063D913 /* TwoLCDModelHelpViewController.m in Sources */,
+				737D262B275755EE003D698F /* RainDelayView.m in Sources */,
 				18A3EACF2653AF610056F267 /* DVModelTwoHelpViewController.m in Sources */,
 				3E0D5ED81FDE1D1A0035857F /* WorktimeCell.m in Sources */,
 				3E5D74EF1FCD4E19007F8E71 /* UILabel+Common.m in Sources */,

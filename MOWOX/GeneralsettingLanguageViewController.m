@@ -159,6 +159,9 @@
     [self.bluetoothDataManage setDataType:0x03];
     [self.bluetoothDataManage setDataContent: dataContent];
     [self.bluetoothDataManage sendBluetoothFrame];
+    [SVProgressHUD showSuccessWithStatus:@"success"];
+    [SVProgressHUD dismissWithDelay:1];
+    
     NSLog(@"语言%ld, %@",(long)row, self.languageArray[row]);
     
     switch (row % _languageArray.count) {
@@ -251,13 +254,13 @@
     }
 
         //解决奇怪的动画bug。
-    dispatch_async(dispatch_get_main_queue(), ^{
-        AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
-        RDVViewController *mainViewVc = [[RDVViewController alloc] init];
-        appDelegate.navController = [[UINavigationController alloc] initWithRootViewController:mainViewVc];
-        appDelegate.window.rootViewController= appDelegate.navController;
-
-    });
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
+//        RDVViewController *mainViewVc = [[RDVViewController alloc] init];
+//        appDelegate.navController = [[UINavigationController alloc] initWithRootViewController:mainViewVc];
+//        appDelegate.window.rootViewController= appDelegate.navController;
+//
+//    });
     
 }
 
