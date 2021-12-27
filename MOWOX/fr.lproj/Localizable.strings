@@ -13,17 +13,18 @@
 "MOW in the rain" = "Tondre sous la pluie";
 "Yes" = "OUI";
 "NO" = "NON";
-"Boundary cut" = "Limite en périphérique";
+"Boundary cut" = "Tonte sur fil périphérique";
 
 "Date" = "Date";
 "Time" = "Heure";
+"Time:" = "Délai:";
 "Language setting" = "Paramètres de la langue";
 "Time setting" = "Paramètres de l'heure";
 "Working time setting" = "Paramètres du temps de travail";
 "Robot setting" = "Paramètres Robot";
 "PIN setting" = "Paramètres du code PIN";
-"Start" = "Démarrer";
-"Stop" = "Arrêter";
+"Start" = "Start";
+"Stop" = "Stop";
 "Alert" = "Alert";
 "setting" = "Paramètres ";
 "Setting" = "Paramètres ";
@@ -53,7 +54,7 @@
 "Robot on lawn" = "Robot sur la pelouse";
 "Back to station" = "Retour à la station";
 "Robot on station" = "Robot sur la station";
-"Go to work" = "Effectuer un travail";
+"Go to work" = "Mettre en marche";
 "Battery capacity" = "Capacité de la batterie";
 "Robot control" = "Contrôle du Robot";
 "Robot Control" = "Contrôle du Robot";
@@ -111,7 +112,7 @@
 "PM 10:00;"= "22:00";
 "PM 11:00;"= "23:00";
 
-"Hours" = "Heures";
+"Hours" = "heures";
 
 
 "Update" = "Mettre à jour";
@@ -247,12 +248,14 @@
 "Error Memory" = "Mémoire d'erreurs";
 "Time Statistics" = "Statistiques";
 "Multi-Area-Mowing" = "Plusieurs points départ";
-"Mon" = "Lu";
-"Tue" = "Ma";
-"Wed" = "Me";
-"Thu" = "Je";
-"Fri" = "Ve";
-"Sat" = "Sa";
-"Sun" = "Di";
+"Mon" = "Lun";
+"Tue" = "Mar";
+"Wed" = "Mer";
+"Thu" = "Jeu";
+"Fri" = "Ven";
+"Sat" = "Sam";
+"Sun" = "Dim";
 "Are you sure to back to station?" = "Êtes-vous sûr de retourner à la gare?";
-"Are you sure to go to work?" = "Êtes-vous sûr d'aller travailler?";
+"Are you sure to go to work?" = "Mettre en marche?";
+"Waiting time after rain" = "Attente après fin de pluie";
+"Helix Set" = "mode Hélix (tonte en cercles)";

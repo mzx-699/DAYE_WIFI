@@ -207,6 +207,13 @@ static BluetoothDataManage *sgetonInstanceData = nil;
         return true;
     }
 }
+- (bool)updateRainDelay {
+    if ([@"DM104" isEqual:self.updateString] || [@"DM304" isEqual:self.updateString]) {
+        return true;
+    } else {
+        return false;
+    }
+}
 + (instancetype)shareInstance{
     static dispatch_once_t once;
     dispatch_once(&once, ^{

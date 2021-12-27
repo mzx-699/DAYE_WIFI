@@ -36,8 +36,8 @@
     if (!_hourTextField) {
         _hourTextField = [[UITextField alloc] init];
         _hourTextField.borderStyle = UITextBorderStyleRoundedRect;
-        _hourTextField.placeholder = @"hour";
-        _hourTextField.text = @"2";
+        _hourTextField.placeholder = LocalString(@"hour");
+        _hourTextField.text = LocalString(@"2");
         _hourTextField.keyboardType = UIKeyboardTypeNumberPad;
         _hourTextField.backgroundColor = [UIColor clearColor];
         _hourTextField.borderStyle = UITextBorderStyleNone;
@@ -51,8 +51,8 @@
     if (!_minTextField) {
         _minTextField = [[UITextField alloc] init];
         _minTextField.borderStyle = UITextBorderStyleRoundedRect;
-        _minTextField.placeholder = @"min";
-        _minTextField.text = @"0";
+        _minTextField.placeholder = LocalString(@"min");
+        _minTextField.text = LocalString(@"min");
         _minTextField.keyboardType = UIKeyboardTypeNumberPad;
         _minTextField.backgroundColor = [UIColor clearColor];
         _minTextField.borderStyle = UITextBorderStyleNone;
@@ -65,7 +65,7 @@
 - (UILabel *)timeLbael{
     if (!_timeLbael) {
         _timeLbael = [[UILabel alloc] init];
-        _timeLbael.text = @"Time:";
+        _timeLbael.text = LocalString(@"Time:");
         _timeLbael.textColor = [UIColor blackColor];
         _timeLbael.font = [UIFont systemFontOfSize:13];
     }
@@ -74,7 +74,7 @@
 - (UILabel *)hourLabel{
     if (!_hourLabel) {
         _hourLabel = [[UILabel alloc] init];
-        _hourLabel.text = @"H";
+        _hourLabel.text = LocalString(@"H");
         _hourLabel.textColor = [UIColor blackColor];
         _hourLabel.font = [UIFont systemFontOfSize:13];
     }
@@ -83,7 +83,7 @@
 - (UILabel *)minLabel{
     if (!_minLabel) {
         _minLabel = [[UILabel alloc] init];
-        _minLabel.text = @"Min";
+        _minLabel.text = LocalString(@"Min");
         _minLabel.textColor = [UIColor blackColor];
         _minLabel.font = [UIFont systemFontOfSize:13];
     }

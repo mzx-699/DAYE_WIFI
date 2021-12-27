@@ -11,6 +11,7 @@
 #import "ForgetpasswordViewController.h"
 #import "MainViewController.h"
 #import "WelcomeViewController.h"
+#import "ChangeViewController.h"
 #import <objc/runtime.h>
 
 @interface LoginViewController () <UITextFieldDelegate,GizWifiSDKDelegate>
@@ -51,6 +52,13 @@
         _checkBtn.tag = select;
         _passwordTF.text = [defaults objectForKey:@"passWord"];
         NSLog(@"帐号密码%@",_passwordTF.text);
+    }
+    if (_emailTF.text.length >0 && _passwordTF.text.length > 0){
+        [_loginBtn setBackgroundColor:[UIColor colorWithRed:71/255.0 green:120/255.0 blue:204/255.0 alpha:1]];
+        _loginBtn.enabled = YES;
+    }else{
+        [_loginBtn setBackgroundColor:[UIColor colorWithRed:71/255.0 green:120/255.0 blue:204/255.0 alpha:0.4]];
+        _loginBtn.enabled = NO;
     }
 }
 
@@ -288,9 +296,10 @@
         }
         [userDefaults synchronize];
         
-        WelcomeViewController *WelcomeVC = [[WelcomeViewController alloc] init];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:WelcomeVC];
+        ChangeViewController *vc = [[ChangeViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
         nav.modalPresentationStyle = UIModalPresentationFullScreen;
+        nav.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
         [self presentViewController:nav animated:YES completion:nil];
         
     } else {
@@ -333,12 +342,16 @@
 }
 - (void)registerLogin{
     RegisterViewController *RegisterVC = [[RegisterViewController alloc] init];
-    [self.navigationController pushViewController:RegisterVC animated:YES];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:RegisterVC];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)forgetPW{
     ForgetpasswordViewController *ForgetVC = [[ForgetpasswordViewController alloc] init];
-    [self.navigationController pushViewController:ForgetVC animated:YES];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:ForgetVC];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
     
 }
 

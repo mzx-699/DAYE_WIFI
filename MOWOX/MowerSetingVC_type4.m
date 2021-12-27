@@ -58,6 +58,9 @@ static int isUltrasound = 0;
     self.ultrasoundyesButton.hidden = [[BluetoothDataManage shareInstance] updateultrasound];
     self.ultrasoundnoButton.hidden = [[BluetoothDataManage shareInstance] updateultrasound];
     
+    self.rainDelayView.hidden = [[BluetoothDataManage shareInstance] updateRainDelay];
+    self.rainDelayLabel.hidden = [[BluetoothDataManage shareInstance] updateRainDelay];
+    
     
 }
 
@@ -101,7 +104,7 @@ static int isUltrasound = 0;
     _rainLabel = [UILabel labelWithFont:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] text:LocalString(@"MOW in the rain")];
     _boundaryLabel = [UILabel labelWithFont:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] text:LocalString(@"Boundary cut")];
     _helixLabel = [UILabel labelWithFont:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] text:LocalString(@"Helix Set")];
-    _rainDelayLabel = [UILabel labelWithFont:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] text:LocalString(@"Rain Delay Set")];
+    _rainDelayLabel = [UILabel labelWithFont:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] text:LocalString(@"Waiting time after rain")];
     _ultrasoundLabel = [UILabel labelWithFont:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] text:LocalString(@"Ultrasound")];
     [_rainLabel setLabelStyle1];
     [_boundaryLabel setLabelStyle1];

@@ -47,6 +47,10 @@
 
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Register");
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:LocalString(@"back") style:UIBarButtonItemStylePlain target:self action:@selector(backItemClick)];
+}
+- (void) backItemClick {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (UITextField *)emailTF{
@@ -255,8 +259,9 @@
         NSLog(@"注册成功");
         [NSObject showHudTipStr:LocalString(@"Registration successful")];
         //返回上一级视图
-        UIViewController *viewCtl =self.navigationController.viewControllers[1];
-        [self.navigationController popToViewController:viewCtl animated:YES];
+//        UIViewController *viewCtl =self.navigationController.viewControllers[1];
+//        [self.navigationController popToViewController:viewCtl animated:YES];
+        [self dismissViewControllerAnimated:YES completion:nil];
         
     } else {
         // 注册失败
@@ -270,7 +275,9 @@
 }
 - (UIDocumentInteractionController *)document {
     if (!_document) {
-        NSURL *url = [[NSBundle mainBundle] URLForResource:@"daye" withExtension:@"pdf"];
+        NSString *localLangaugeCode = [[[NSBundle mainBundle] preferredLocalizations] firstObject];
+        NSLog(@"%@", localLangaugeCode);
+        NSURL *url = [[NSBundle mainBundle] URLForResource:[NSString stringWithFormat:@"gdpr-%@", localLangaugeCode] withExtension:@"pdf"];
         NSLog(@"%@", url);
         _document = [UIDocumentInteractionController interactionControllerWithURL:url];
         _document.delegate = self;
@@ -282,7 +289,6 @@
     [self document];
     [self.document presentPreviewAnimated:YES];
     NSLog(@"agreeBtnClick");
-    
 }
 -(void)presentOptionsMenu{
     

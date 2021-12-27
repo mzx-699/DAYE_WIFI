@@ -77,6 +77,7 @@ static dispatch_queue_t queue;
 - (NSString*) updateFirmwareImageName;
 - (bool) updateHelixset;
 - (bool) updateultrasound;
+- (bool)updateRainDelay;
 
 + (instancetype)shareInstance;
 

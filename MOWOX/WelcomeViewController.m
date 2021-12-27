@@ -13,6 +13,7 @@
 #import "RDVViewController.h"
 #import "LMPopInputPasswordView.h"
 #import <NetworkExtension/NEHotspotConfigurationManager.h>
+#import "UserInformationViewController.h"
 
 NSString *const CellIdentifier_landroid = @"CellID_landroid";
 
@@ -78,11 +79,17 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
     rightButton.frame = CGRectMake(0, 0, 30, 30);
     [rightButton.widthAnchor constraintEqualToConstant:30].active = YES;
     [rightButton.heightAnchor constraintEqualToConstant:30].active = YES;
-    [rightButton setImage:[UIImage imageNamed:@"ic_nav_more_white"] forState:UIControlStateNormal];
-    [rightButton addTarget:self action:@selector(logout) forControlEvents:UIControlEventTouchUpInside];
+//    [rightButton setImage:[UIImage imageNamed:@"ic_nav_more_white"] forState:UIControlStateNormal];
+//    [rightButton addTarget:self action:@selector(logout) forControlEvents:UIControlEventTouchUpInside];
+    [rightButton setImage:[UIImage imageNamed:@"people"] forState:UIControlStateNormal];
+    [rightButton addTarget:self action:@selector(rightClick) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
     self.navigationItem.rightBarButtonItem = rightBarButton;
 
+}
+- (void)rightClick {
+    UserInformationViewController *vc = [UserInformationViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (UILabel *)deviceLabel{

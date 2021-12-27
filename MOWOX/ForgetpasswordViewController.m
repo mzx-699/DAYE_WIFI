@@ -30,10 +30,15 @@
     //_NewpasswordTF = [self NewpasswordTF];
     _OKBtn = [self OKBtn];
     [GizWifiSDK sharedInstance].delegate = self;
+    
 }
 
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Forget Password");
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:LocalString(@"back") style:UIBarButtonItemStylePlain target:self action:@selector(backItemClick)];
+}
+- (void) backItemClick {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (UITextField *)emailTF{

@@ -14,6 +14,8 @@
 #import "ChangePasswordViewController.h"
 #import "BlueTableViewController.h"
 #import "LMPopInputPasswordView.h"
+#import "WelcomeViewController.h"
+#import "UserInformationViewController.h"
 
 @interface ChangeViewController () <UITextFieldDelegate,LMPopInputPassViewDelegate>
 
@@ -30,6 +32,7 @@
 @property (strong, nonatomic)  BluetoothDataManage *bluetoothDataManage;
 
 @property (strong, nonatomic)  AppDelegate *appDelegate;
+@property (strong, nonatomic) UIButton *rightBtn;
 
 @end
 
@@ -56,8 +59,28 @@
                                                  name:UIDeviceOrientationDidChangeNotification
                                                object:nil];
     time = 0.0;
+    [self.view addSubview:self.rightBtn];
+    [self.rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.view.mas_top).offset(ScreenHeight * 0.05);
+        make.right.mas_equalTo(self.view.mas_right).offset(-10);
+        make.width.mas_equalTo(ScreenWidth * 0.1);
+        make.height.mas_equalTo(ScreenWidth * 0.1);
+    }];
 }
 
+- (UIButton *)rightBtn {
+    if (!_rightBtn) {
+        _rightBtn = [UIButton new];
+        [_rightBtn setImage:[UIImage imageNamed:@"people"] forState:UIControlStateNormal];
+        [_rightBtn addTarget:self action:@selector(navRightBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        _rightBtn.contentMode = UIViewContentModeScaleAspectFit;
+    }
+    return _rightBtn;
+}
+- (void)navRightBtnClick {
+    UserInformationViewController *vc = [UserInformationViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -218,11 +241,13 @@
     
     if (_appDelegate.status == 1) {
         BlueTableViewController *detailVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"BlueTableViewController"];
-        NSLog(@"%@", self.storyboard);
+        //NSLog(@"%@", self.storyboard);
+        detailVC.modalPresentationStyle = UIModalPresentationFullScreen;
         [self.navigationController pushViewController:detailVC animated:YES];
+        //[self presentViewController:detailVC animated:YES completion:nil];
     }else{
-        LoginViewController *wifiVC = [[LoginViewController alloc] init];
-        [self.navigationController pushViewController:wifiVC animated:YES];
+        WelcomeViewController *vc = [[WelcomeViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
