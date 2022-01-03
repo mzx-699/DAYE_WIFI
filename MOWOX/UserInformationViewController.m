@@ -7,7 +7,7 @@
 //
 
 #import "UserInformationViewController.h"
-
+#import "LoginViewController.h"
 @interface UserInformationViewController () <UIDocumentInteractionControllerDelegate>
 @property (strong, nonatomic) UILabel *emailLabel;
 @property (strong, nonatomic) UILabel *emailContent;
@@ -53,7 +53,12 @@
     [self.document presentPreviewAnimated:YES];
 }
 - (void)logoutBtnClick {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    #pragma mark - 登陆逻辑
+    //[self dismissViewControllerAnimated:YES completion:nil];
+    LoginViewController *vc = [LoginViewController new];
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = item;
+    [self.navigationController pushViewController:vc animated:NO];
 }
 #pragma mark - 设置UI
 - (void)setupView {

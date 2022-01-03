@@ -12,6 +12,7 @@
 #import "MainViewController.h"
 #import "WelcomeViewController.h"
 #import "ChangeViewController.h"
+#import "UserInformationViewController.h"
 #import <objc/runtime.h>
 
 @interface LoginViewController () <UITextFieldDelegate,GizWifiSDKDelegate>
@@ -60,6 +61,7 @@
         [_loginBtn setBackgroundColor:[UIColor colorWithRed:71/255.0 green:120/255.0 blue:204/255.0 alpha:0.4]];
         _loginBtn.enabled = NO;
     }
+    [self setNav];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -67,7 +69,23 @@
     [GizWifiSDK sharedInstance].delegate = self;
     
 }
-
+- (void)setNav {
+    
+    UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    rightButton.frame = CGRectMake(0, 0, 30, 30);
+    [rightButton.widthAnchor constraintEqualToConstant:30].active = YES;
+    [rightButton.heightAnchor constraintEqualToConstant:30].active = YES;
+//    [rightButton setImage:[UIImage imageNamed:@"ic_nav_more_white"] forState:UIControlStateNormal];
+//    [rightButton addTarget:self action:@selector(logout) forControlEvents:UIControlEventTouchUpInside];
+    [rightButton setImage:[UIImage imageNamed:@"people"] forState:UIControlStateNormal];
+    [rightButton addTarget:self action:@selector(rightClick) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
+    self.navigationItem.rightBarButtonItem = rightBarButton;
+}
+- (void)rightClick {
+    UserInformationViewController *vc = [UserInformationViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 - (UITextField *)emailTF{
     if (!_emailTF) {
         _emailTF = [[UITextField alloc] init];
@@ -295,12 +313,14 @@
             [userDefaults removeObjectForKey:@"passWord"];
         }
         [userDefaults synchronize];
-        
-        ChangeViewController *vc = [[ChangeViewController alloc] init];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-        nav.modalPresentationStyle = UIModalPresentationFullScreen;
-        nav.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-        [self presentViewController:nav animated:YES completion:nil];
+        #pragma mark - 登陆逻辑
+//        ChangeViewController *vc = [[ChangeViewController alloc] init];
+//        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//        nav.modalPresentationStyle = UIModalPresentationFullScreen;
+//        nav.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+//        [self presentViewController:nav animated:YES completion:nil];
+        WelcomeViewController * vc = [WelcomeViewController new];
+        [self.navigationController pushViewController:vc animated:NO];
         
     } else {
         // 登录失败

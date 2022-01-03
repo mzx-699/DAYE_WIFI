@@ -246,7 +246,12 @@
         [self.navigationController pushViewController:detailVC animated:YES];
         //[self presentViewController:detailVC animated:YES completion:nil];
     }else{
-        WelcomeViewController *vc = [[WelcomeViewController alloc] init];
+        #pragma mark - 登陆逻辑
+//        WelcomeViewController *vc = [[WelcomeViewController alloc] init];
+//        [self.navigationController pushViewController:vc animated:YES];
+        LoginViewController *vc = [LoginViewController new];
+        UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStylePlain target:nil action:nil];
+        self.navigationItem.backBarButtonItem = item;
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

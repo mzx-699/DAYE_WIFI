@@ -57,7 +57,7 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
     }
     
     _updateButton.hidden = [BluetoothDataManage shareInstance].isUpdateBtnHidden;
-    _updateButton.hidden = YES;
+//    _updateButton.hidden = YES;
     NSLog(@"版本号%d",[BluetoothDataManage shareInstance].versionupdate);
     //分区按钮显示
     if ([BluetoothDataManage shareInstance].sectionvalve == 0) {
@@ -91,9 +91,10 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
 
 - (void)viewWillAppear:(BOOL)animated
 {
-//    _updateButton.hidden = [BluetoothDataManage shareInstance].isUpdateBtnHidden;
+    
     [super viewWillAppear:animated];
-    _updateButton.hidden = YES;
+    _updateButton.hidden = [BluetoothDataManage shareInstance].isUpdateBtnHidden;
+//    _updateButton.hidden = YES;
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -125,7 +126,7 @@ static int latestVersion_4 =  402;//更新页面 同时修改！！
     _mowerButton = [UIButton buttonWithTitle:LocalString(@"Robot setting") titleColor:[UIColor blackColor]];
     _updateButton = [UIButton buttonWithTitle:LocalString(@"Update Robot's Firmware") titleColor:[UIColor blackColor]];
     _secondaryButton = [UIButton buttonWithTitle:LocalString(@"Multi-Area-Mowing") titleColor:[UIColor blackColor]];
-    _updateButton.hidden = YES;
+    //_updateButton.hidden = YES;
     [_LanguageButton setButtonStyle1];
     [_testButton setButtonStyle1];
     [_WorktimeButton setButtonStyle1];

@@ -40,9 +40,12 @@
 //    self.window.rootViewController = nav;
 //    SelectModelViewController *vc = [[SelectModelViewController alloc] init];
 //    RegisterViewController *vc = [[RegisterViewController alloc] init];
-    LoginViewController *vc = [[LoginViewController alloc] init];
-//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = vc;
+    #pragma mark - 登陆逻辑
+    //LoginViewController *vc = [[LoginViewController alloc] init];
+
+    ChangeViewController *vc = [ChangeViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
     
     
     [self.window makeKeyAndVisible];

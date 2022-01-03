@@ -37,6 +37,8 @@
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>音乐权限</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string></string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>蓝牙权限</string>
 	<key>NSCalendarsUsageDescription</key>
@@ -84,8 +86,6 @@
 	<key>appLanguage</key>
 	<string></string>
 	<key>kTCCServiceMediaLibrary</key>
-	<string></string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string></string>
 </dict>
 </plist>
