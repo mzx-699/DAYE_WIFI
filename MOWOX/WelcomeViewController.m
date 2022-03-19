@@ -244,9 +244,9 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
             if ([password integerValue] == [userDefaults integerForKey:@"pincode"]) {
                 
                 RDVViewController *rdvView = [[RDVViewController alloc] init];
-                if (@available(iOS 13.0, *)) {
-                    rdvView.modalInPresentation = YES;
-                }
+//                if (@available(iOS 13.0, *)) {
+//                    rdvView.modalInPresentation = YES;
+//                }
                 rdvView.modalPresentationStyle = UIModalPresentationFullScreen;
                 [self presentViewController:rdvView animated:YES completion:nil];
                 return;

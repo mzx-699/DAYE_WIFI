@@ -69,7 +69,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
     } else if ([@"GY162" isEqual:self.updateString]) {
         _updateFileName = @"GY16274";
     } else if ([@"DM104" isEqual:self.updateString]) {
-        _updateFileName = @"DM10403";
+        _updateFileName = @"DM10402";
     } else if ([@"DM304" isEqual:self.updateString]) {
         _updateFileName = @"DM30403";
     } else if ([@"DA104" isEqual:self.updateString]) {
@@ -176,14 +176,14 @@ static BluetoothDataManage *sgetonInstanceData = nil;
     
     if ([@"DY002" isEqual:self.updateString] || [@"DY052" isEqual:self.updateString] ||
         [@"DM104" isEqual:self.updateString] || [@"DM304" isEqual:self.updateString] ||
-        [@"DA104" isEqual:self.updateString] || [@"DA134" isEqual:self.updateString]) {
+        [@"DA104" isEqual:self.updateString] || [@"DA134" isEqual:self.updateString] ||
+        [@"GY002" isEqual:self.updateString] || [@"GY052" isEqual:self.updateString]) {
         return @"update_10_18_1";
     } else if ([@"DA114" isEqual:self.updateString]) {
         return @"update_10_18_3";
     } else if ([@"DY012" isEqual:self.updateString] || [@"DY112" isEqual:self.updateString] ||
                [@"DY122" isEqual:self.updateString] || [@"DY142" isEqual:self.updateString] ||
-               [@"DY162" isEqual:self.updateString] || [@"GY002" isEqual:self.updateString] ||
-               [@"GY052" isEqual:self.updateString] || [@"GY012" isEqual:self.updateString] ||
+               [@"DY162" isEqual:self.updateString]  || [@"GY012" isEqual:self.updateString] ||
                [@"GY112" isEqual:self.updateString] || [@"GY022" isEqual:self.updateString] ||
                [@"GY122" isEqual:self.updateString] || [@"GY142" isEqual:self.updateString] ||
                [@"GY162" isEqual:self.updateString]) {

@@ -95,17 +95,9 @@
 		3644AFA524F7624B0063D913 /* OneLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA424F7624B0063D913 /* OneLCDModelHelpViewController.m */; };
 		3644AFA824F762690063D913 /* TwoLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */; };
 		3658FEE62530141E00815B94 /* MowerSetingVC_type4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3658FEE52530141E00815B94 /* MowerSetingVC_type4.m */; };
-		3658FEFB2530522B00815B94 /* DY05273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3658FEF82530522B00815B94 /* DY05273.BIN */; };
-		3658FEFC2530522B00815B94 /* DY10273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3658FEF92530522B00815B94 /* DY10273.BIN */; };
-		3658FEFD2530522B00815B94 /* DY15273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3658FEFA2530522B00815B94 /* DY15273.BIN */; };
-		365E6BFD24F8F4670067E737 /* DY0L008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFA24F8F4670067E737 /* DY0L008.BIN */; };
-		365E6BFE24F8F4670067E737 /* DY0M008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFB24F8F4670067E737 /* DY0M008.BIN */; };
-		365E6BFF24F8F4670067E737 /* DY0R008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFC24F8F4670067E737 /* DY0R008.BIN */; };
 		365E6C0224FA2B790067E737 /* ipad40pt@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 365E6C0024FA2B790067E737 /* ipad40pt@1x.png */; };
 		365E6C0324FA2B790067E737 /* ipad20pt@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 365E6C0124FA2B790067E737 /* ipad20pt@1x.png */; };
 		36605E552253855500849403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36605E542253855500849403 /* Images.xcassets */; };
-		3664F7B924F8E65B0098B249 /* DY00273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B424F8E65B0098B249 /* DY00273.BIN */; };
-		3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B624F8E65B0098B249 /* DM00401.BIN */; };
 		3669CF3D21C9EEE400F54D53 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */; };
 		3669CF4121C9EF1D00F54D53 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4021C9EF1D00F54D53 /* WelcomeViewController.m */; };
 		3669CF4621C9EF2E00F54D53 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4221C9EF2E00F54D53 /* AddDeviceViewController.m */; };
@@ -127,13 +119,6 @@
 		36BD41D723CC680A00C9C451 /* WorkTimeSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD41D623CC680900C9C451 /* WorkTimeSettingViewController.m */; };
 		36BEE7122445EC6900684369 /* WorktimeCell_268.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BEE7112445EC6900684369 /* WorktimeCell_268.m */; };
 		36BEE7152445ED2E00684369 /* WorkTimeSettingVC_268.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BEE7142445ED2E00684369 /* WorkTimeSettingVC_268.m */; };
-		36C6BEA724D4109C00E5B7F6 /* DY01273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA024D4109B00E5B7F6 /* DY01273.BIN */; };
-		36C6BEA824D4109C00E5B7F6 /* DM10340.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA124D4109C00E5B7F6 /* DM10340.BIN */; };
-		36C6BEA924D4109C00E5B7F6 /* DY12273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA224D4109C00E5B7F6 /* DY12273.BIN */; };
-		36C6BEAA24D4109C00E5B7F6 /* DY02273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA324D4109C00E5B7F6 /* DY02273.BIN */; };
-		36C6BEAB24D4109C00E5B7F6 /* DY14273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA424D4109C00E5B7F6 /* DY14273.BIN */; };
-		36C6BEAC24D4109C00E5B7F6 /* DM11340.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA524D4109C00E5B7F6 /* DM11340.BIN */; };
-		36C6BEAD24D4109C00E5B7F6 /* DY11273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 36C6BEA624D4109C00E5B7F6 /* DY11273.BIN */; };
 		36DDB0BD21D5C2A7006CEAFA /* ic_nav_more_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DDB0BC21D5C2A7006CEAFA /* ic_nav_more_white@2x.png */; };
 		36DDB0BF21D5FE0A006CEAFA /* Robot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DDB0BE21D5FE0A006CEAFA /* Robot@2x.png */; };
 		36E9696324EA375500190201 /* OldFirmwareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E9696224EA375500190201 /* OldFirmwareViewController.m */; };
@@ -274,27 +259,6 @@
 		3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF771A61FAAA38A00EC016A /* up@1x.png */; };
 		3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */; };
 		3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */; };
-		735566B92760837B00E220CF /* GY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566A42760837700E220CF /* GY00274.bin */; };
-		735566BA2760837B00E220CF /* DA10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566A52760837700E220CF /* DA10402.bin */; };
-		735566BB2760837B00E220CF /* DA13402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566A62760837700E220CF /* DA13402.bin */; };
-		735566BC2760837B00E220CF /* DY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566A72760837700E220CF /* DY14274.bin */; };
-		735566BD2760837B00E220CF /* GY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566A82760837800E220CF /* GY02274.bin */; };
-		735566BE2760837B00E220CF /* DA10401.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566A92760837800E220CF /* DA10401.bin */; };
-		735566BF2760837B00E220CF /* DM10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566AA2760837800E220CF /* DM10402.bin */; };
-		735566C02760837B00E220CF /* DY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566AB2760837800E220CF /* DY11274.bin */; };
-		735566C12760837B00E220CF /* GY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566AC2760837800E220CF /* GY01274.bin */; };
-		735566C22760837B00E220CF /* GY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566AD2760837900E220CF /* GY05274.bin */; };
-		735566C32760837B00E220CF /* GY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566AE2760837900E220CF /* GY12274.bin */; };
-		735566C42760837B00E220CF /* GY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566AF2760837900E220CF /* GY14274.bin */; };
-		735566C52760837B00E220CF /* DY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B02760837900E220CF /* DY02274.bin */; };
-		735566C62760837B00E220CF /* DY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B12760837A00E220CF /* DY01274.bin */; };
-		735566C72760837B00E220CF /* GY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B22760837A00E220CF /* GY16274.bin */; };
-		735566C82760837B00E220CF /* DY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B32760837A00E220CF /* DY05274.bin */; };
-		735566C92760837B00E220CF /* DY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B42760837A00E220CF /* DY12274.bin */; };
-		735566CA2760837B00E220CF /* DA11402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B52760837A00E220CF /* DA11402.bin */; };
-		735566CB2760837B00E220CF /* DY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B62760837A00E220CF /* DY16274.bin */; };
-		735566CC2760837B00E220CF /* GY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B72760837B00E220CF /* GY11274.bin */; };
-		735566CD2760837B00E220CF /* DY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 735566B82760837B00E220CF /* DY00274.bin */; };
 		7379ACA42771C88900591454 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379ACA32771C88900591454 /* people.png */; };
 		7379ACA72771CB6200591454 /* UserInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7379ACA62771CB6200591454 /* UserInformationViewController.m */; };
 		7379ACBC2772C2F700591454 /* Lithuanian-GDPR disclaimewr.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7379ACA92772C2F600591454 /* Lithuanian-GDPR disclaimewr.pdf */; };
@@ -321,7 +285,26 @@
 		737D25FF2755FF9A003D698F /* update_10_18_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FC2755FF99003D698F /* update_10_18_3@2x.png */; };
 		737D262B275755EE003D698F /* RainDelayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D262A275755EE003D698F /* RainDelayView.m */; };
 		73899ACE2759F18D0096A53D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB1299302021A79500285201 /* Localizable.strings */; };
-		BB01A121254FE2FC00BC5340 /* DM10401.BIN in Resources */ = {isa = PBXBuildFile; fileRef = BB01A120254FE2FC00BC5340 /* DM10401.BIN */; };
+		73A8832027CE0E70004A0239 /* DY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830C27CE0E6C004A0239 /* DY01274.bin */; };
+		73A8832127CE0E70004A0239 /* DA11402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830D27CE0E6C004A0239 /* DA11402.bin */; };
+		73A8832227CE0E70004A0239 /* GY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830E27CE0E6C004A0239 /* GY02274.bin */; };
+		73A8832327CE0E70004A0239 /* DY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830F27CE0E6C004A0239 /* DY16274.bin */; };
+		73A8832427CE0E70004A0239 /* GY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831027CE0E6C004A0239 /* GY05274.bin */; };
+		73A8832527CE0E70004A0239 /* GY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831127CE0E6D004A0239 /* GY12274.bin */; };
+		73A8832627CE0E70004A0239 /* GY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831227CE0E6D004A0239 /* GY14274.bin */; };
+		73A8832727CE0E70004A0239 /* DA10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831327CE0E6D004A0239 /* DA10402.bin */; };
+		73A8832827CE0E70004A0239 /* GY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831427CE0E6D004A0239 /* GY16274.bin */; };
+		73A8832927CE0E70004A0239 /* DY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831527CE0E6D004A0239 /* DY12274.bin */; };
+		73A8832A27CE0E70004A0239 /* GY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831627CE0E6E004A0239 /* GY11274.bin */; };
+		73A8832B27CE0E70004A0239 /* DY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831727CE0E6E004A0239 /* DY00274.bin */; };
+		73A8832C27CE0E70004A0239 /* GY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831827CE0E6E004A0239 /* GY01274.bin */; };
+		73A8832D27CE0E70004A0239 /* DY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831927CE0E6E004A0239 /* DY11274.bin */; };
+		73A8832E27CE0E70004A0239 /* DM10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831A27CE0E6E004A0239 /* DM10402.bin */; };
+		73A8832F27CE0E70004A0239 /* GY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831B27CE0E6F004A0239 /* GY00274.bin */; };
+		73A8833027CE0E70004A0239 /* DY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831C27CE0E6F004A0239 /* DY05274.bin */; };
+		73A8833127CE0E70004A0239 /* DY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831D27CE0E6F004A0239 /* DY14274.bin */; };
+		73A8833227CE0E70004A0239 /* DY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831E27CE0E6F004A0239 /* DY02274.bin */; };
+		73A8833327CE0E70004A0239 /* DA13402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831F27CE0E6F004A0239 /* DA13402.bin */; };
 		BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */; };
 		BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */; };
 		BB0A37B12015944D00E5FD94 /* A3_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */; };
@@ -503,17 +486,9 @@
 		3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoLCDModelHelpViewController.m; sourceTree = "<group>"; };
 		3658FEE42530141E00815B94 /* MowerSetingVC_type4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MowerSetingVC_type4.h; sourceTree = "<group>"; };
 		3658FEE52530141E00815B94 /* MowerSetingVC_type4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MowerSetingVC_type4.m; sourceTree = "<group>"; };
-		3658FEF82530522B00815B94 /* DY05273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05273.BIN; sourceTree = "<group>"; };
-		3658FEF92530522B00815B94 /* DY10273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY10273.BIN; sourceTree = "<group>"; };
-		3658FEFA2530522B00815B94 /* DY15273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY15273.BIN; sourceTree = "<group>"; };
-		365E6BFA24F8F4670067E737 /* DY0L008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0L008.BIN; sourceTree = "<group>"; };
-		365E6BFB24F8F4670067E737 /* DY0M008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0M008.BIN; sourceTree = "<group>"; };
-		365E6BFC24F8F4670067E737 /* DY0R008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0R008.BIN; sourceTree = "<group>"; };
 		365E6C0024FA2B790067E737 /* ipad40pt@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad40pt@1x.png"; sourceTree = "<group>"; };
 		365E6C0124FA2B790067E737 /* ipad20pt@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad20pt@1x.png"; sourceTree = "<group>"; };
 		36605E542253855500849403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3664F7B424F8E65B0098B249 /* DY00273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00273.BIN; sourceTree = "<group>"; };
-		3664F7B624F8E65B0098B249 /* DM00401.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM00401.BIN; sourceTree = "<group>"; };
 		3669CF3B21C9EEE400F54D53 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		3669CF3F21C9EF1D00F54D53 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
@@ -546,13 +521,6 @@
 		36BEE7112445EC6900684369 /* WorktimeCell_268.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorktimeCell_268.m; sourceTree = "<group>"; };
 		36BEE7132445ED2E00684369 /* WorkTimeSettingVC_268.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkTimeSettingVC_268.h; sourceTree = "<group>"; };
 		36BEE7142445ED2E00684369 /* WorkTimeSettingVC_268.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkTimeSettingVC_268.m; sourceTree = "<group>"; };
-		36C6BEA024D4109B00E5B7F6 /* DY01273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY01273.BIN; sourceTree = "<group>"; };
-		36C6BEA124D4109C00E5B7F6 /* DM10340.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10340.BIN; sourceTree = "<group>"; };
-		36C6BEA224D4109C00E5B7F6 /* DY12273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY12273.BIN; sourceTree = "<group>"; };
-		36C6BEA324D4109C00E5B7F6 /* DY02273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY02273.BIN; sourceTree = "<group>"; };
-		36C6BEA424D4109C00E5B7F6 /* DY14273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY14273.BIN; sourceTree = "<group>"; };
-		36C6BEA524D4109C00E5B7F6 /* DM11340.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM11340.BIN; sourceTree = "<group>"; };
-		36C6BEA624D4109C00E5B7F6 /* DY11273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY11273.BIN; sourceTree = "<group>"; };
 		36DDB0BC21D5C2A7006CEAFA /* ic_nav_more_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_nav_more_white@2x.png"; sourceTree = "<group>"; };
 		36DDB0BE21D5FE0A006CEAFA /* Robot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Robot@2x.png"; path = "image/wifi_img/Robot@2x.png"; sourceTree = SOURCE_ROOT; };
 		36E9696124EA375500190201 /* OldFirmwareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldFirmwareViewController.h; sourceTree = "<group>"; };
@@ -833,11 +801,30 @@
 		737D2629275755ED003D698F /* RainDelayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainDelayView.h; sourceTree = "<group>"; };
 		737D262A275755EE003D698F /* RainDelayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainDelayView.m; sourceTree = "<group>"; };
 		73899ACC2759F0950096A53D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A8830C27CE0E6C004A0239 /* DY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY01274.bin; sourceTree = "<group>"; };
+		73A8830D27CE0E6C004A0239 /* DA11402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA11402.bin; sourceTree = "<group>"; };
+		73A8830E27CE0E6C004A0239 /* GY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY02274.bin; sourceTree = "<group>"; };
+		73A8830F27CE0E6C004A0239 /* DY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY16274.bin; sourceTree = "<group>"; };
+		73A8831027CE0E6C004A0239 /* GY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY05274.bin; sourceTree = "<group>"; };
+		73A8831127CE0E6D004A0239 /* GY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY12274.bin; sourceTree = "<group>"; };
+		73A8831227CE0E6D004A0239 /* GY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY14274.bin; sourceTree = "<group>"; };
+		73A8831327CE0E6D004A0239 /* DA10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA10402.bin; sourceTree = "<group>"; };
+		73A8831427CE0E6D004A0239 /* GY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY16274.bin; sourceTree = "<group>"; };
+		73A8831527CE0E6D004A0239 /* DY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY12274.bin; sourceTree = "<group>"; };
+		73A8831627CE0E6E004A0239 /* GY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY11274.bin; sourceTree = "<group>"; };
+		73A8831727CE0E6E004A0239 /* DY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00274.bin; sourceTree = "<group>"; };
+		73A8831827CE0E6E004A0239 /* GY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY01274.bin; sourceTree = "<group>"; };
+		73A8831927CE0E6E004A0239 /* DY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY11274.bin; sourceTree = "<group>"; };
+		73A8831A27CE0E6E004A0239 /* DM10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10402.bin; sourceTree = "<group>"; };
+		73A8831B27CE0E6F004A0239 /* GY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY00274.bin; sourceTree = "<group>"; };
+		73A8831C27CE0E6F004A0239 /* DY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05274.bin; sourceTree = "<group>"; };
+		73A8831D27CE0E6F004A0239 /* DY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY14274.bin; sourceTree = "<group>"; };
+		73A8831E27CE0E6F004A0239 /* DY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY02274.bin; sourceTree = "<group>"; };
+		73A8831F27CE0E6F004A0239 /* DA13402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA13402.bin; sourceTree = "<group>"; };
 		73F43DA2276C3BA500549EFA /* Giz_MowerProvisioning Profile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Giz_MowerProvisioning Profile.entitlements"; sourceTree = "<group>"; };
 		81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.debug.xcconfig"; sourceTree = "<group>"; };
 		9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BC601C08829689A12A004A /* Pods-Giz_Mower.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.provisioning profile.xcconfig"; sourceTree = "<group>"; };
-		BB01A120254FE2FC00BC5340 /* DM10401.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10401.BIN; sourceTree = "<group>"; };
 		BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A2_50@2x.png"; path = "image/A2_50@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A1_50@2x.png"; path = "image/A1_50@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A3_50@2x.png"; path = "image/A3_50@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -1139,22 +1126,26 @@
 		3E0F567E1FF23F9400A4D339 /* bin */ = {
 			isa = PBXGroup;
 			children = (
-				BB01A120254FE2FC00BC5340 /* DM10401.BIN */,
-				3658FEF82530522B00815B94 /* DY05273.BIN */,
-				3658FEF92530522B00815B94 /* DY10273.BIN */,
-				3658FEFA2530522B00815B94 /* DY15273.BIN */,
-				365E6BFA24F8F4670067E737 /* DY0L008.BIN */,
-				365E6BFB24F8F4670067E737 /* DY0M008.BIN */,
-				365E6BFC24F8F4670067E737 /* DY0R008.BIN */,
-				3664F7B624F8E65B0098B249 /* DM00401.BIN */,
-				3664F7B424F8E65B0098B249 /* DY00273.BIN */,
-				36C6BEA124D4109C00E5B7F6 /* DM10340.BIN */,
-				36C6BEA524D4109C00E5B7F6 /* DM11340.BIN */,
-				36C6BEA024D4109B00E5B7F6 /* DY01273.BIN */,
-				36C6BEA324D4109C00E5B7F6 /* DY02273.BIN */,
-				36C6BEA624D4109C00E5B7F6 /* DY11273.BIN */,
-				36C6BEA224D4109C00E5B7F6 /* DY12273.BIN */,
-				36C6BEA424D4109C00E5B7F6 /* DY14273.BIN */,
+				73A8831327CE0E6D004A0239 /* DA10402.bin */,
+				73A8830D27CE0E6C004A0239 /* DA11402.bin */,
+				73A8831F27CE0E6F004A0239 /* DA13402.bin */,
+				73A8831A27CE0E6E004A0239 /* DM10402.bin */,
+				73A8831727CE0E6E004A0239 /* DY00274.bin */,
+				73A8830C27CE0E6C004A0239 /* DY01274.bin */,
+				73A8831E27CE0E6F004A0239 /* DY02274.bin */,
+				73A8831C27CE0E6F004A0239 /* DY05274.bin */,
+				73A8831927CE0E6E004A0239 /* DY11274.bin */,
+				73A8831527CE0E6D004A0239 /* DY12274.bin */,
+				73A8831D27CE0E6F004A0239 /* DY14274.bin */,
+				73A8830F27CE0E6C004A0239 /* DY16274.bin */,
+				73A8831B27CE0E6F004A0239 /* GY00274.bin */,
+				73A8831827CE0E6E004A0239 /* GY01274.bin */,
+				73A8830E27CE0E6C004A0239 /* GY02274.bin */,
+				73A8831027CE0E6C004A0239 /* GY05274.bin */,
+				73A8831627CE0E6E004A0239 /* GY11274.bin */,
+				73A8831127CE0E6D004A0239 /* GY12274.bin */,
+				73A8831227CE0E6D004A0239 /* GY14274.bin */,
+				73A8831427CE0E6D004A0239 /* GY16274.bin */,
 			);
 			path = bin;
 			sourceTree = SOURCE_ROOT;
@@ -1856,7 +1847,7 @@
 				TargetAttributes = {
 					3E6325211FA6BC5F00F14462 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 5FAMV3D32N;
+						DevelopmentTeam = Y2GCZP95KQ;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
@@ -1917,25 +1908,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3644AF7D24F67FB30063D913 /* img_device_LCDhelp.png in Resources */,
-				735566CD2760837B00E220CF /* DY00274.bin in Resources */,
 				3644AF7124F67F930063D913 /* img_lcdModelHelp1.png in Resources */,
 				3E1480651FCFEF1400FA8A2D /* A6@2x.png in Resources */,
 				7379ACBD2772C2F700591454 /* Bulgarian-GDPR disclaimewr.pdf in Resources */,
-				36C6BEA724D4109C00E5B7F6 /* DY01273.BIN in Resources */,
-				36C6BEA924D4109C00E5B7F6 /* DY12273.BIN in Resources */,
 				737D25FF2755FF9A003D698F /* update_10_18_3@2x.png in Resources */,
 				3E3561FF1FB4560E00135503 /* 返回绿色@1x.png in Resources */,
 				36067D9321BF5CEB00FB6865 /* updateFirmwareTip0@2x.png in Resources */,
 				3E43AD321FAAF4E100924616 /* 电量2@1x.png in Resources */,
 				3E11A3861FD90AAD000CAA08 /* icon-150@3x.png in Resources */,
+				73A8832B27CE0E70004A0239 /* DY00274.bin in Resources */,
 				BBB611252019B111007FA3D4 /* 120x120@2x.png in Resources */,
 				3E1480511FCFEF1400FA8A2D /* 机器人APP1+2(1)-3.png in Resources */,
-				735566BD2760837B00E220CF /* GY02274.bin in Resources */,
 				7379ACBE2772C2F700591454 /* gdpr-cs.pdf in Resources */,
 				3EE3DC481FA8B2BE0049B8F7 /* 右转@2x.png in Resources */,
-				735566C92760837B00E220CF /* DY12274.bin in Resources */,
-				735566C02760837B00E220CF /* DY11274.bin in Resources */,
-				735566C82760837B00E220CF /* DY05274.bin in Resources */,
 				36F0FCFB2456C599006B1ABA /* iphone60pt@3x.png in Resources */,
 				3644AF7724F67F930063D913 /* img_lcdHelpWifi.png in Resources */,
 				BB479EFA208D6F9200B19D6A /* 180*180@3x.png in Resources */,
@@ -1944,24 +1929,19 @@
 				18C2ADEC2653B99F000142A1 /* dv_m2.png in Resources */,
 				3644AF7324F67F930063D913 /* img_model1_help_up.png in Resources */,
 				36F0FCF82456C599006B1ABA /* ipad29pt@1x.png in Resources */,
-				BB01A121254FE2FC00BC5340 /* DM10401.BIN in Resources */,
-				735566C22760837B00E220CF /* GY05274.bin in Resources */,
 				3E11A3881FD90AAD000CAA08 /* 40@2x.png in Resources */,
 				3E2F25351FB949C200E79C23 /* findBluetooth@2x.png in Resources */,
-				3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */,
 				BBB611242019B111007FA3D4 /* 1024x1024@1x.png in Resources */,
 				36F0FCF62456C599006B1ABA /* iphone60pt@2x.png in Resources */,
 				BB513EFB2140DBB6000D2A5E /* img_nav_more@1x.png in Resources */,
 				7379ACC32772C2F700591454 /* gdpr-hu.pdf in Resources */,
 				3E6325541FA6D09400F14462 /* background@2x.png in Resources */,
 				3E5815BF1FAFF72300E93520 /* Generalsetting@1x.png in Resources */,
-				735566CB2760837B00E220CF /* DY16274.bin in Resources */,
 				3E1480601FCFEF1400FA8A2D /* A2@3x.png in Resources */,
 				18C2ADE92653B995000142A1 /* dv_model1.png in Resources */,
 				3E2F25311FB946EF00E79C23 /* Imformation@2x.png in Resources */,
 				3644AF7524F67F930063D913 /* img_lcdModelHelp2.png in Resources */,
 				BB2CF26821DF4436008DA45E /* img_logout@2x.png in Resources */,
-				735566BC2760837B00E220CF /* DY14274.bin in Resources */,
 				BBA14A1B250A2214008DCC3A /* ipad76pt@1x.png in Resources */,
 				7379ACC02772C2F700591454 /* gdpr-nb-NO.pdf in Resources */,
 				7379ACC52772C2F700591454 /* gdpr-ro-RO.pdf in Resources */,
@@ -1970,6 +1950,7 @@
 				BB8D9490213FE33C0079EE63 /* DeviceTableViewCell.xib in Resources */,
 				BB479EF4208D6F9200B19D6A /* 60*60@2x.png in Resources */,
 				BB37DA402043B7FC0078504A /* B3_50@2x.png in Resources */,
+				73A8833027CE0E70004A0239 /* DY05274.bin in Resources */,
 				3644AF4724F658970063D913 /* xianbuyong.png in Resources */,
 				3E1480531FCFEF1400FA8A2D /* loginView@2x.png in Resources */,
 				36009B8321F0261B00245D71 /* Welcome1_5.5@2x.png in Resources */,
@@ -1982,6 +1963,7 @@
 				3E11A38A1FD90AAD000CAA08 /* icon-60.png in Resources */,
 				18C2ADFD2653B9C5000142A1 /* dv_icon1.png in Resources */,
 				BB479EFE208D6F9200B19D6A /* 87*87@3x.png in Resources */,
+				73A8832F27CE0E70004A0239 /* GY00274.bin in Resources */,
 				36F0FD022456C599006B1ABA /* iphone20pt@3x.png in Resources */,
 				3E11A3871FD90AAD000CAA08 /* icon-60@3x.png in Resources */,
 				3644AF5824F658980063D913 /* 返回1@2x.png in Resources */,
@@ -1991,12 +1973,16 @@
 				3E1480611FCFEF1400FA8A2D /* A3@3x.png in Resources */,
 				3644AF5A24F658980063D913 /* 蓝牙图标@2x.png in Resources */,
 				3E43ACE21FAAB39C00924616 /* parkimage@2x.png in Resources */,
+				73A8832027CE0E70004A0239 /* DY01274.bin in Resources */,
+				73A8833127CE0E70004A0239 /* DY14274.bin in Resources */,
 				3E6325301FA6BC5F00F14462 /* Main.storyboard in Resources */,
+				73A8832E27CE0E70004A0239 /* DM10402.bin in Resources */,
+				73A8833227CE0E70004A0239 /* DY02274.bin in Resources */,
 				3E43ACDE1FAAB39C00924616 /* bluetooth@1x.png in Resources */,
 				3E14804C1FCFEF1400FA8A2D /* xianbuyong.png in Resources */,
 				3644AF4824F658970063D913 /* img_model1_help.png in Resources */,
 				3E43ACE31FAAB39C00924616 /* Pinsetting@1x.png in Resources */,
-				735566CA2760837B00E220CF /* DA11402.bin in Resources */,
+				73A8832327CE0E70004A0239 /* DY16274.bin in Resources */,
 				73899ACE2759F18D0096A53D /* Localizable.strings in Resources */,
 				3EF771AA1FAAA38A00EC016A /* right@1x.png in Resources */,
 				18C2ADE32653B980000142A1 /* dv_ok.png in Resources */,
@@ -2007,7 +1993,6 @@
 				365E6C0224FA2B790067E737 /* ipad40pt@1x.png in Resources */,
 				3EA7AE061FB14B87001FB406 /* backgroundro@1x.png in Resources */,
 				3EA7AE051FB14B87001FB406 /* backgroundco@2x.png in Resources */,
-				735566C32760837B00E220CF /* GY12274.bin in Resources */,
 				36FE81C021DDF7F900BD29F4 /* ic_eyesclosed@2x.png in Resources */,
 				3EF771A91FAAA38A00EC016A /* left@1x.png in Resources */,
 				3644AF5024F658970063D913 /* img_LCDmodel1_help.png in Resources */,
@@ -2021,13 +2006,15 @@
 				7379ACC72772C2F700591454 /* gdpr-es.pdf in Resources */,
 				BB479EF8208D6F9200B19D6A /* 60*60@3x.png in Resources */,
 				3E3562001FB4560E00135503 /* bluetoothImage@1x.png in Resources */,
+				73A8832C27CE0E70004A0239 /* GY01274.bin in Resources */,
+				73A8832D27CE0E70004A0239 /* DY11274.bin in Resources */,
 				18C2AE042653B9E4000142A1 /* dv_btn2.png in Resources */,
+				73A8833327CE0E70004A0239 /* DA13402.bin in Resources */,
 				3E22E2A51FA9A7B8000BC792 /* wifi@2x.png in Resources */,
 				BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */,
 				3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */,
 				3E6325571FA6D8F000F14462 /* 未选中@1x.png in Resources */,
 				3E43AD2B1FAAED0500924616 /* 倒三角@1x.png in Resources */,
-				36C6BEA824D4109C00E5B7F6 /* DM10340.BIN in Resources */,
 				3E63255E1FA6F8C500F14462 /* 选中@2x.png in Resources */,
 				BB479EFC208D6F9200B19D6A /* 80*80@2x.png in Resources */,
 				36F0FD062456C599006B1ABA /* ipad29pt@2x.png in Resources */,
@@ -2040,27 +2027,24 @@
 				3644AF2624F652260063D913 /* img_addDevice_NextBtn.png in Resources */,
 				36FE81C421DE0A7200BD29F4 /* rememberpassword@2x.png in Resources */,
 				3644AFA024F75AFB0063D913 /* 10.png in Resources */,
-				735566C12760837B00E220CF /* GY01274.bin in Resources */,
-				365E6BFE24F8F4670067E737 /* DY0M008.BIN in Resources */,
 				3644AF5C24F658980063D913 /* A6@2x.png in Resources */,
 				3E11A3851FD90AAD000CAA08 /* 120@3x.png in Resources */,
 				18C2ADDB2653B8A4000142A1 /* dv.png in Resources */,
-				735566BF2760837B00E220CF /* DM10402.bin in Resources */,
 				3E1480811FD00C0700FA8A2D /* A3@2x.png in Resources */,
+				73A8832127CE0E70004A0239 /* DA11402.bin in Resources */,
 				3644AF4D24F658970063D913 /* img_arrow.png in Resources */,
 				3EF771A71FAAA38A00EC016A /* down@1x.png in Resources */,
 				3644AF6124F658A70063D913 /* img_help.png in Resources */,
-				735566BE2760837B00E220CF /* DA10401.bin in Resources */,
 				BB479EF7208D6F9200B19D6A /* 40*40@2x.png in Resources */,
 				3E43ACEB1FAACA5200924616 /* background2@2x.png in Resources */,
 				3E43ACE51FAAB39C00924616 /* signal@1x.png in Resources */,
+				73A8832227CE0E70004A0239 /* GY02274.bin in Resources */,
 				36FE81BE21DDBB5B00BD29F4 /* ic_eyespassword@1x.png in Resources */,
 				36605E552253855500849403 /* Images.xcassets in Resources */,
 				7379ACC42772C2F700591454 /* gdpr-nl.pdf in Resources */,
 				7379ACCA2772C2F700591454 /* gdpr-Danish.pdf in Resources */,
 				7379ACC62772C2F700591454 /* gdpr-en.pdf in Resources */,
 				18C2AE002653B9DA000142A1 /* dv_con.png in Resources */,
-				735566CC2760837B00E220CF /* GY11274.bin in Resources */,
 				36009B8221F0261B00245D71 /* Welcome1_4.7@2x.png in Resources */,
 				3E1480501FCFEF1400FA8A2D /* launchImage@2x.png in Resources */,
 				3644AF5E24F658980063D913 /* A3@3x.png in Resources */,
@@ -2068,23 +2052,18 @@
 				3EF771A81FAAA38A00EC016A /* home@1x.png in Resources */,
 				3E43AD331FAAF4E100924616 /* 电量3@1x.png in Resources */,
 				BBB611232019B111007FA3D4 /* 40x40@2x.png in Resources */,
-				36C6BEAA24D4109C00E5B7F6 /* DY02273.BIN in Resources */,
 				36FE81C821DE0B6400BD29F4 /* device@2x.png in Resources */,
 				BB513EF12140C7A9000D2A5E /* img_wifi@1x.png in Resources */,
-				735566C72760837B00E220CF /* GY16274.bin in Resources */,
-				3658FEFD2530522B00815B94 /* DY15273.BIN in Resources */,
 				3644AF4A24F658970063D913 /* img_LCDmodel2_help.png in Resources */,
 				BB479EFB208D6F9200B19D6A /* 120*120@2x.png in Resources */,
 				BB5C49CB207D9B28007B2508 /* updateFirmwareTip@2x.png in Resources */,
 				3644AF4924F658970063D913 /* img_lcd_Btn.png in Resources */,
-				36C6BEAD24D4109C00E5B7F6 /* DY11273.BIN in Resources */,
 				3E14806E1FCFFA8C00FA8A2D /* 电量4-2@1x.png in Resources */,
 				BBB6112B2019B1F3007FA3D4 /* 60x60@2x.png in Resources */,
 				3E14807A1FD0042D00FA8A2D /* A6@1x.png in Resources */,
 				3644AF5724F658980063D913 /* A2@3x.png in Resources */,
 				36F0FD052456C599006B1ABA /* 167X167.png in Resources */,
 				3E2F25301FB946EF00E79C23 /* Generalsetting@2x.png in Resources */,
-				735566C52760837B00E220CF /* DY02274.bin in Resources */,
 				3644AFA224F75B130063D913 /* icon_check.png in Resources */,
 				18C2ADE62653B98A000142A1 /* dv_model2.png in Resources */,
 				3E14806C1FCFFA8C00FA8A2D /* 电量2-2@1x.png in Resources */,
@@ -2099,27 +2078,24 @@
 				3644AF7C24F67FB30063D913 /* img_device_Simplehelp.png in Resources */,
 				BB513EF52140DAC4000D2A5E /* ic_nav_more_black@2x.png in Resources */,
 				3E14805E1FCFEF1400FA8A2D /* 机器人APP1+2(1-1.png in Resources */,
+				73A8832827CE0E70004A0239 /* GY16274.bin in Resources */,
+				73A8832427CE0E70004A0239 /* GY05274.bin in Resources */,
 				3E14807B1FD0042D00FA8A2D /* backgroundnew@2x.png in Resources */,
 				3E43AD341FAAF4E100924616 /* 电量4@1x.png in Resources */,
 				3E43ACE61FAAB39C00924616 /* whether@1x.png in Resources */,
 				3E63255D1FA6F8C500F14462 /* 未选中@2x.png in Resources */,
 				3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */,
-				3658FEFB2530522B00815B94 /* DY05273.BIN in Resources */,
 				3E11A38E1FD90B46000CAA08 /* icon-60@2x.png in Resources */,
-				36C6BEAB24D4109C00E5B7F6 /* DY14273.BIN in Resources */,
-				735566C62760837B00E220CF /* DY01274.bin in Resources */,
 				365E6C0324FA2B790067E737 /* ipad20pt@1x.png in Resources */,
 				7379ACC92772C2F700591454 /* gdpr-fr.pdf in Resources */,
 				18C2ADDF2653B975000142A1 /* dv_wifi.png in Resources */,
 				BB513EFD2140DBB6000D2A5E /* img_nav_more@2x.png in Resources */,
 				BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */,
 				BB479EFD208D6F9200B19D6A /* 1024*1024@1x.png in Resources */,
-				365E6BFF24F8F4670067E737 /* DY0R008.BIN in Resources */,
 				BBB611282019B111007FA3D4 /* 58x58@2x.png in Resources */,
 				3644AF5B24F658980063D913 /* 返回@2x.png in Resources */,
 				3E2454251FBD1F1000095FBE /* 割草机@2x.png in Resources */,
 				3E43ACDD1FAAB39C00924616 /* backview@1x.png in Resources */,
-				36C6BEAC24D4109C00E5B7F6 /* DM11340.BIN in Resources */,
 				7379ACCB2772C2F700591454 /* gdpr-de.pdf in Resources */,
 				36FE81C621DE0B5D00BD29F4 /* finishdevice@2x.png in Resources */,
 				3EC2009C1FE275710005F15A /* 返回@2x.png in Resources */,
@@ -2131,15 +2107,13 @@
 				BB479EF6208D6F9200B19D6A /* 58*58@2x.png in Resources */,
 				3644AF5624F658970063D913 /* 14.png in Resources */,
 				7379ACCD2772C2F700591454 /* gdpr-it.pdf in Resources */,
-				3664F7B924F8E65B0098B249 /* DY00273.BIN in Resources */,
 				7379ACC12772C2F700591454 /* gdpr-ru.pdf in Resources */,
 				3E14805F1FCFEF1400FA8A2D /* A1@3x.png in Resources */,
-				735566BB2760837B00E220CF /* DA13402.bin in Resources */,
+				73A8832A27CE0E70004A0239 /* GY11274.bin in Resources */,
 				3644AF5224F658970063D913 /* img_model2_help.png in Resources */,
 				36F0FCFF2456C599006B1ABA /* iphone40pt@2x.png in Resources */,
 				3E458D1D21AFD688001FEB1F /* SecondaryAreaImage.png in Resources */,
 				18C2ADEF2653B9AD000142A1 /* dv_m1.png in Resources */,
-				735566B92760837B00E220CF /* GY00274.bin in Resources */,
 				3E14806B1FCFFA8C00FA8A2D /* 电量1-2@1x.png in Resources */,
 				3EE3DC471FA8B2BE0049B8F7 /* 前进@2x.png in Resources */,
 				3644AF7624F67F930063D913 /* img_model1_help_down.png in Resources */,
@@ -2152,7 +2126,6 @@
 				3EE3DC491FA8B2BE0049B8F7 /* 左转@2x.png in Resources */,
 				3644AF7024F67F930063D913 /* img_model1_help_up_text.png in Resources */,
 				36DDB0BD21D5C2A7006CEAFA /* ic_nav_more_white@2x.png in Resources */,
-				735566C42760837B00E220CF /* GY14274.bin in Resources */,
 				3E43AD391FAAF5C600924616 /* 电量5@1x.png in Resources */,
 				36F0FCFE2456C599006B1ABA /* ipad20pt@2x.png in Resources */,
 				3644AF4B24F658970063D913 /* loginView@2x.png in Resources */,
@@ -2163,12 +2136,15 @@
 				BB37DA412043B7FC0078504A /* B1_50@2x.png in Resources */,
 				3E43AD311FAAF4E100924616 /* 电量1@1x.png in Resources */,
 				3E14806F1FCFFA8C00FA8A2D /* 电量5-2@1x.png in Resources */,
+				73A8832527CE0E70004A0239 /* GY12274.bin in Resources */,
 				7379ACBF2772C2F700591454 /* gdpr-sv.pdf in Resources */,
+				73A8832927CE0E70004A0239 /* DY12274.bin in Resources */,
+				73A8832727CE0E70004A0239 /* DA10402.bin in Resources */,
 				3644AF7424F67F930063D913 /* 19.png in Resources */,
 				3E43ACEA1FAACA5200924616 /* background1@2x.png in Resources */,
-				365E6BFD24F8F4670067E737 /* DY0L008.BIN in Resources */,
 				3644AF5424F658970063D913 /* img_connect_Btn.png in Resources */,
 				BBB6112C2019B1F3007FA3D4 /* 120x120@3x.png in Resources */,
+				73A8832627CE0E70004A0239 /* GY14274.bin in Resources */,
 				36F0FCF92456C599006B1ABA /* iphone29pt@3x.png in Resources */,
 				7379ACCC2772C2F700591454 /* gdpr-sk.pdf in Resources */,
 				3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */,
@@ -2177,10 +2153,8 @@
 				7379ACA42771C88900591454 /* people.png in Resources */,
 				3E5815D51FB0061D00E93520 /* Back1@1x.png in Resources */,
 				36DDB0BF21D5FE0A006CEAFA /* Robot@2x.png in Resources */,
-				3658FEFC2530522B00815B94 /* DY10273.BIN in Resources */,
 				3644AF4C24F658970063D913 /* 机器人APP1+2(1)-3.png in Resources */,
 				3E43ACE11FAAB39C00924616 /* imformation@1x.png in Resources */,
-				735566BA2760837B00E220CF /* DA10402.bin in Resources */,
 				3644AF4624F658970063D913 /* img_simple_Btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2540,7 +2514,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 5FAMV3D32N;
+				DEVELOPMENT_TEAM = Y2GCZP95KQ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2607,7 +2581,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 5FAMV3D32N;
+				DEVELOPMENT_TEAM = Y2GCZP95KQ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2730,7 +2704,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = 5FAMV3D32N;
+				DEVELOPMENT_TEAM = Y2GCZP95KQ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
