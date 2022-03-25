@@ -35,8 +35,6 @@
 	<true/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>音乐权限</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string></string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
@@ -47,8 +45,6 @@
 	<string>摄像头权限</string>
 	<key>NSContactsUsageDescription</key>
 	<string>通讯录权限</string>
-	<key>NSHomeKitUsageDescription</key>
-	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>地理位置权限</string>
 	<key>NSLocationUsageDescription</key>
@@ -56,8 +52,6 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>地理位置权限</string>
 	<key>NSRemindersUsageDescription</key>
-	<string></string>
-	<key>NSVideoSubscriberAccountUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreenRobot</string>

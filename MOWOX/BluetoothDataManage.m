@@ -139,7 +139,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
     } else if ([@"DY122" isEqual:self.updateString]) {
         return self.updateNum >= 74;
     } else if ([@"DY142" isEqual:self.updateString]) {
-        return self.updateNum >= 74;
+        return YES;
     } else if ([@"DY162" isEqual:self.updateString]) {
         return self.updateNum >= 74;
     } else if ([@"GY002" isEqual:self.updateString]) {
@@ -155,7 +155,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
     } else if ([@"GY122" isEqual:self.updateString]) {
         return self.updateNum >= 74;
     } else if ([@"GY142" isEqual:self.updateString]) {
-        return self.updateNum >= 74;
+        return YES;
     } else if ([@"GY162" isEqual:self.updateString]) {
         return self.updateNum >= 74;
     } else if ([@"DM104" isEqual:self.updateString]) {

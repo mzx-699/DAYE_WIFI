@@ -259,6 +259,25 @@
 		3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF771A61FAAA38A00EC016A /* up@1x.png */; };
 		3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */; };
 		3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */; };
+		7303473A27E88E5800870B50 /* GY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472727E88E5800870B50 /* GY11274.bin */; };
+		7303473B27E88E5800870B50 /* DY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472827E88E5800870B50 /* DY16274.bin */; };
+		7303473C27E88E5800870B50 /* GY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472927E88E5800870B50 /* GY01274.bin */; };
+		7303473D27E88E5800870B50 /* DY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472A27E88E5800870B50 /* DY14274.bin */; };
+		7303473E27E88E5800870B50 /* DY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472B27E88E5800870B50 /* DY02274.bin */; };
+		7303473F27E88E5800870B50 /* GY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472C27E88E5800870B50 /* GY05274.bin */; };
+		7303474027E88E5800870B50 /* DY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472D27E88E5800870B50 /* DY00274.bin */; };
+		7303474127E88E5800870B50 /* DA10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472E27E88E5800870B50 /* DA10402.bin */; };
+		7303474227E88E5800870B50 /* DY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303472F27E88E5800870B50 /* DY12274.bin */; };
+		7303474327E88E5800870B50 /* DY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473027E88E5800870B50 /* DY05274.bin */; };
+		7303474427E88E5800870B50 /* GY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473127E88E5800870B50 /* GY02274.bin */; };
+		7303474527E88E5800870B50 /* GY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473227E88E5800870B50 /* GY12274.bin */; };
+		7303474627E88E5800870B50 /* GY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473327E88E5800870B50 /* GY00274.bin */; };
+		7303474727E88E5800870B50 /* GY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473427E88E5800870B50 /* GY16274.bin */; };
+		7303474827E88E5800870B50 /* DY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473527E88E5800870B50 /* DY11274.bin */; };
+		7303474927E88E5800870B50 /* DA13402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473627E88E5800870B50 /* DA13402.bin */; };
+		7303474A27E88E5800870B50 /* GY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473727E88E5800870B50 /* GY14274.bin */; };
+		7303474B27E88E5800870B50 /* DY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473827E88E5800870B50 /* DY01274.bin */; };
+		7303474C27E88E5800870B50 /* DA11402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7303473927E88E5800870B50 /* DA11402.bin */; };
 		7379ACA42771C88900591454 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379ACA32771C88900591454 /* people.png */; };
 		7379ACA72771CB6200591454 /* UserInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7379ACA62771CB6200591454 /* UserInformationViewController.m */; };
 		7379ACBC2772C2F700591454 /* Lithuanian-GDPR disclaimewr.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7379ACA92772C2F600591454 /* Lithuanian-GDPR disclaimewr.pdf */; };
@@ -282,29 +301,9 @@
 		7379ACCE2772C2F700591454 /* gdpr-pl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7379ACBB2772C2F600591454 /* gdpr-pl.pdf */; };
 		737D25FD2755FF9A003D698F /* update_10_18_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FA2755FF98003D698F /* update_10_18_2@2x.png */; };
 		737D25FE2755FF9A003D698F /* update_10_18_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FB2755FF99003D698F /* update_10_18_1@2x.png */; };
-		737D25FF2755FF9A003D698F /* update_10_18_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737D25FC2755FF99003D698F /* update_10_18_3@2x.png */; };
 		737D262B275755EE003D698F /* RainDelayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D262A275755EE003D698F /* RainDelayView.m */; };
 		73899ACE2759F18D0096A53D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB1299302021A79500285201 /* Localizable.strings */; };
-		73A8832027CE0E70004A0239 /* DY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830C27CE0E6C004A0239 /* DY01274.bin */; };
-		73A8832127CE0E70004A0239 /* DA11402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830D27CE0E6C004A0239 /* DA11402.bin */; };
-		73A8832227CE0E70004A0239 /* GY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830E27CE0E6C004A0239 /* GY02274.bin */; };
-		73A8832327CE0E70004A0239 /* DY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8830F27CE0E6C004A0239 /* DY16274.bin */; };
-		73A8832427CE0E70004A0239 /* GY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831027CE0E6C004A0239 /* GY05274.bin */; };
-		73A8832527CE0E70004A0239 /* GY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831127CE0E6D004A0239 /* GY12274.bin */; };
-		73A8832627CE0E70004A0239 /* GY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831227CE0E6D004A0239 /* GY14274.bin */; };
-		73A8832727CE0E70004A0239 /* DA10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831327CE0E6D004A0239 /* DA10402.bin */; };
-		73A8832827CE0E70004A0239 /* GY16274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831427CE0E6D004A0239 /* GY16274.bin */; };
-		73A8832927CE0E70004A0239 /* DY12274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831527CE0E6D004A0239 /* DY12274.bin */; };
-		73A8832A27CE0E70004A0239 /* GY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831627CE0E6E004A0239 /* GY11274.bin */; };
-		73A8832B27CE0E70004A0239 /* DY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831727CE0E6E004A0239 /* DY00274.bin */; };
-		73A8832C27CE0E70004A0239 /* GY01274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831827CE0E6E004A0239 /* GY01274.bin */; };
-		73A8832D27CE0E70004A0239 /* DY11274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831927CE0E6E004A0239 /* DY11274.bin */; };
-		73A8832E27CE0E70004A0239 /* DM10402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831A27CE0E6E004A0239 /* DM10402.bin */; };
-		73A8832F27CE0E70004A0239 /* GY00274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831B27CE0E6F004A0239 /* GY00274.bin */; };
-		73A8833027CE0E70004A0239 /* DY05274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831C27CE0E6F004A0239 /* DY05274.bin */; };
-		73A8833127CE0E70004A0239 /* DY14274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831D27CE0E6F004A0239 /* DY14274.bin */; };
-		73A8833227CE0E70004A0239 /* DY02274.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831E27CE0E6F004A0239 /* DY02274.bin */; };
-		73A8833327CE0E70004A0239 /* DA13402.bin in Resources */ = {isa = PBXBuildFile; fileRef = 73A8831F27CE0E6F004A0239 /* DA13402.bin */; };
+		738BF16A27E9B39B008FA770 /* update_10_18_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 738BF16927E9B39A008FA770 /* update_10_18_3@2x.png */; };
 		BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */; };
 		BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */; };
 		BB0A37B12015944D00E5FD94 /* A3_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */; };
@@ -752,27 +751,25 @@
 		3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蓝牙@1x.png"; path = "image/蓝牙@1x.png"; sourceTree = SOURCE_ROOT; };
 		3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蓝牙断开@1x.png"; path = "image/蓝牙断开@1x.png"; sourceTree = SOURCE_ROOT; };
 		41AF602D45B7AE4EE6CB78D8 /* Pods-MOWOX.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.provisioning profile.xcconfig"; sourceTree = "<group>"; };
-		735566A42760837700E220CF /* GY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY00274.bin; sourceTree = "<group>"; };
-		735566A52760837700E220CF /* DA10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA10402.bin; sourceTree = "<group>"; };
-		735566A62760837700E220CF /* DA13402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA13402.bin; sourceTree = "<group>"; };
-		735566A72760837700E220CF /* DY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY14274.bin; sourceTree = "<group>"; };
-		735566A82760837800E220CF /* GY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY02274.bin; sourceTree = "<group>"; };
-		735566A92760837800E220CF /* DA10401.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA10401.bin; sourceTree = "<group>"; };
-		735566AA2760837800E220CF /* DM10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10402.bin; sourceTree = "<group>"; };
-		735566AB2760837800E220CF /* DY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY11274.bin; sourceTree = "<group>"; };
-		735566AC2760837800E220CF /* GY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY01274.bin; sourceTree = "<group>"; };
-		735566AD2760837900E220CF /* GY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY05274.bin; sourceTree = "<group>"; };
-		735566AE2760837900E220CF /* GY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY12274.bin; sourceTree = "<group>"; };
-		735566AF2760837900E220CF /* GY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY14274.bin; sourceTree = "<group>"; };
-		735566B02760837900E220CF /* DY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY02274.bin; sourceTree = "<group>"; };
-		735566B12760837A00E220CF /* DY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY01274.bin; sourceTree = "<group>"; };
-		735566B22760837A00E220CF /* GY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY16274.bin; sourceTree = "<group>"; };
-		735566B32760837A00E220CF /* DY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05274.bin; sourceTree = "<group>"; };
-		735566B42760837A00E220CF /* DY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY12274.bin; sourceTree = "<group>"; };
-		735566B52760837A00E220CF /* DA11402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA11402.bin; sourceTree = "<group>"; };
-		735566B62760837A00E220CF /* DY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY16274.bin; sourceTree = "<group>"; };
-		735566B72760837B00E220CF /* GY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY11274.bin; sourceTree = "<group>"; };
-		735566B82760837B00E220CF /* DY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00274.bin; sourceTree = "<group>"; };
+		7303472727E88E5800870B50 /* GY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY11274.bin; sourceTree = "<group>"; };
+		7303472827E88E5800870B50 /* DY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY16274.bin; sourceTree = "<group>"; };
+		7303472927E88E5800870B50 /* GY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY01274.bin; sourceTree = "<group>"; };
+		7303472A27E88E5800870B50 /* DY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY14274.bin; sourceTree = "<group>"; };
+		7303472B27E88E5800870B50 /* DY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY02274.bin; sourceTree = "<group>"; };
+		7303472C27E88E5800870B50 /* GY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY05274.bin; sourceTree = "<group>"; };
+		7303472D27E88E5800870B50 /* DY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00274.bin; sourceTree = "<group>"; };
+		7303472E27E88E5800870B50 /* DA10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA10402.bin; sourceTree = "<group>"; };
+		7303472F27E88E5800870B50 /* DY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY12274.bin; sourceTree = "<group>"; };
+		7303473027E88E5800870B50 /* DY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05274.bin; sourceTree = "<group>"; };
+		7303473127E88E5800870B50 /* GY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY02274.bin; sourceTree = "<group>"; };
+		7303473227E88E5800870B50 /* GY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY12274.bin; sourceTree = "<group>"; };
+		7303473327E88E5800870B50 /* GY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY00274.bin; sourceTree = "<group>"; };
+		7303473427E88E5800870B50 /* GY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY16274.bin; sourceTree = "<group>"; };
+		7303473527E88E5800870B50 /* DY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY11274.bin; sourceTree = "<group>"; };
+		7303473627E88E5800870B50 /* DA13402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA13402.bin; sourceTree = "<group>"; };
+		7303473727E88E5800870B50 /* GY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY14274.bin; sourceTree = "<group>"; };
+		7303473827E88E5800870B50 /* DY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY01274.bin; sourceTree = "<group>"; };
+		7303473927E88E5800870B50 /* DA11402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA11402.bin; sourceTree = "<group>"; };
 		7379ACA32771C88900591454 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
 		7379ACA52771CB6200591454 /* UserInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInformationViewController.h; sourceTree = "<group>"; };
 		7379ACA62771CB6200591454 /* UserInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInformationViewController.m; sourceTree = "<group>"; };
@@ -797,30 +794,10 @@
 		7379ACBB2772C2F600591454 /* gdpr-pl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "gdpr-pl.pdf"; sourceTree = "<group>"; };
 		737D25FA2755FF98003D698F /* update_10_18_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_2@2x.png"; sourceTree = "<group>"; };
 		737D25FB2755FF99003D698F /* update_10_18_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_1@2x.png"; sourceTree = "<group>"; };
-		737D25FC2755FF99003D698F /* update_10_18_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_3@2x.png"; sourceTree = "<group>"; };
 		737D2629275755ED003D698F /* RainDelayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainDelayView.h; sourceTree = "<group>"; };
 		737D262A275755EE003D698F /* RainDelayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainDelayView.m; sourceTree = "<group>"; };
 		73899ACC2759F0950096A53D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73A8830C27CE0E6C004A0239 /* DY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY01274.bin; sourceTree = "<group>"; };
-		73A8830D27CE0E6C004A0239 /* DA11402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA11402.bin; sourceTree = "<group>"; };
-		73A8830E27CE0E6C004A0239 /* GY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY02274.bin; sourceTree = "<group>"; };
-		73A8830F27CE0E6C004A0239 /* DY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY16274.bin; sourceTree = "<group>"; };
-		73A8831027CE0E6C004A0239 /* GY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY05274.bin; sourceTree = "<group>"; };
-		73A8831127CE0E6D004A0239 /* GY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY12274.bin; sourceTree = "<group>"; };
-		73A8831227CE0E6D004A0239 /* GY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY14274.bin; sourceTree = "<group>"; };
-		73A8831327CE0E6D004A0239 /* DA10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA10402.bin; sourceTree = "<group>"; };
-		73A8831427CE0E6D004A0239 /* GY16274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY16274.bin; sourceTree = "<group>"; };
-		73A8831527CE0E6D004A0239 /* DY12274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY12274.bin; sourceTree = "<group>"; };
-		73A8831627CE0E6E004A0239 /* GY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY11274.bin; sourceTree = "<group>"; };
-		73A8831727CE0E6E004A0239 /* DY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00274.bin; sourceTree = "<group>"; };
-		73A8831827CE0E6E004A0239 /* GY01274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY01274.bin; sourceTree = "<group>"; };
-		73A8831927CE0E6E004A0239 /* DY11274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY11274.bin; sourceTree = "<group>"; };
-		73A8831A27CE0E6E004A0239 /* DM10402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10402.bin; sourceTree = "<group>"; };
-		73A8831B27CE0E6F004A0239 /* GY00274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = GY00274.bin; sourceTree = "<group>"; };
-		73A8831C27CE0E6F004A0239 /* DY05274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05274.bin; sourceTree = "<group>"; };
-		73A8831D27CE0E6F004A0239 /* DY14274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY14274.bin; sourceTree = "<group>"; };
-		73A8831E27CE0E6F004A0239 /* DY02274.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY02274.bin; sourceTree = "<group>"; };
-		73A8831F27CE0E6F004A0239 /* DA13402.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DA13402.bin; sourceTree = "<group>"; };
+		738BF16927E9B39A008FA770 /* update_10_18_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update_10_18_3@2x.png"; sourceTree = "<group>"; };
 		73F43DA2276C3BA500549EFA /* Giz_MowerProvisioning Profile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Giz_MowerProvisioning Profile.entitlements"; sourceTree = "<group>"; };
 		81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.debug.xcconfig"; sourceTree = "<group>"; };
 		9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1123,33 +1100,6 @@
 			path = "Assets.xcassets/AppIcon.appiconset/MOWER Pro_icon";
 			sourceTree = "<group>";
 		};
-		3E0F567E1FF23F9400A4D339 /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				73A8831327CE0E6D004A0239 /* DA10402.bin */,
-				73A8830D27CE0E6C004A0239 /* DA11402.bin */,
-				73A8831F27CE0E6F004A0239 /* DA13402.bin */,
-				73A8831A27CE0E6E004A0239 /* DM10402.bin */,
-				73A8831727CE0E6E004A0239 /* DY00274.bin */,
-				73A8830C27CE0E6C004A0239 /* DY01274.bin */,
-				73A8831E27CE0E6F004A0239 /* DY02274.bin */,
-				73A8831C27CE0E6F004A0239 /* DY05274.bin */,
-				73A8831927CE0E6E004A0239 /* DY11274.bin */,
-				73A8831527CE0E6D004A0239 /* DY12274.bin */,
-				73A8831D27CE0E6F004A0239 /* DY14274.bin */,
-				73A8830F27CE0E6C004A0239 /* DY16274.bin */,
-				73A8831B27CE0E6F004A0239 /* GY00274.bin */,
-				73A8831827CE0E6E004A0239 /* GY01274.bin */,
-				73A8830E27CE0E6C004A0239 /* GY02274.bin */,
-				73A8831027CE0E6C004A0239 /* GY05274.bin */,
-				73A8831627CE0E6E004A0239 /* GY11274.bin */,
-				73A8831127CE0E6D004A0239 /* GY12274.bin */,
-				73A8831227CE0E6D004A0239 /* GY14274.bin */,
-				73A8831427CE0E6D004A0239 /* GY16274.bin */,
-			);
-			path = bin;
-			sourceTree = SOURCE_ROOT;
-		};
 		3E11A37C1FD90AAD000CAA08 /* icon */ = {
 			isa = PBXGroup;
 			children = (
@@ -1176,7 +1126,7 @@
 				3644AF9F24F75AFB0063D913 /* 10.png */,
 				737D25FB2755FF99003D698F /* update_10_18_1@2x.png */,
 				737D25FA2755FF98003D698F /* update_10_18_2@2x.png */,
-				737D25FC2755FF99003D698F /* update_10_18_3@2x.png */,
+				738BF16927E9B39A008FA770 /* update_10_18_3@2x.png */,
 				3644AF7A24F67FB30063D913 /* img_device_LCDhelp.png */,
 				3644AF7924F67FB30063D913 /* img_device_Simplehelp.png */,
 				3644AF7824F67FB30063D913 /* img_device.png */,
@@ -1386,7 +1336,6 @@
 				3E63252C1FA6BC5F00F14462 /* ViewController.m */,
 				73899ACC2759F0950096A53D /* Info.plist */,
 				7379ACA82772C2F600591454 /* gdpr */,
-				737D2600275615CE003D698F /* bin */,
 				3E63252E1FA6BC5F00F14462 /* Main.storyboard */,
 				3E6325331FA6BC5F00F14462 /* LaunchScreen.storyboard */,
 				36605E542253855500849403 /* Images.xcassets */,
@@ -1401,7 +1350,7 @@
 		3E6325251FA6BC5F00F14462 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E0F567E1FF23F9400A4D339 /* bin */,
+				7303472627E88E5800870B50 /* bin */,
 				3E6325261FA6BC5F00F14462 /* main.m */,
 				3E1E29F21FC011CB00696EE6 /* MOWOX-Prefix.pch */,
 			);
@@ -1506,6 +1455,32 @@
 			name = TextField;
 			sourceTree = "<group>";
 		};
+		7303472627E88E5800870B50 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				7303472727E88E5800870B50 /* GY11274.bin */,
+				7303472827E88E5800870B50 /* DY16274.bin */,
+				7303472927E88E5800870B50 /* GY01274.bin */,
+				7303472A27E88E5800870B50 /* DY14274.bin */,
+				7303472B27E88E5800870B50 /* DY02274.bin */,
+				7303472C27E88E5800870B50 /* GY05274.bin */,
+				7303472D27E88E5800870B50 /* DY00274.bin */,
+				7303472E27E88E5800870B50 /* DA10402.bin */,
+				7303472F27E88E5800870B50 /* DY12274.bin */,
+				7303473027E88E5800870B50 /* DY05274.bin */,
+				7303473127E88E5800870B50 /* GY02274.bin */,
+				7303473227E88E5800870B50 /* GY12274.bin */,
+				7303473327E88E5800870B50 /* GY00274.bin */,
+				7303473427E88E5800870B50 /* GY16274.bin */,
+				7303473527E88E5800870B50 /* DY11274.bin */,
+				7303473627E88E5800870B50 /* DA13402.bin */,
+				7303473727E88E5800870B50 /* GY14274.bin */,
+				7303473827E88E5800870B50 /* DY01274.bin */,
+				7303473927E88E5800870B50 /* DA11402.bin */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
 		7379ACA82772C2F600591454 /* gdpr */ = {
 			isa = PBXGroup;
 			children = (
@@ -1530,34 +1505,6 @@
 				7379ACBB2772C2F600591454 /* gdpr-pl.pdf */,
 			);
 			path = gdpr;
-			sourceTree = "<group>";
-		};
-		737D2600275615CE003D698F /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				735566A92760837800E220CF /* DA10401.bin */,
-				735566A52760837700E220CF /* DA10402.bin */,
-				735566B52760837A00E220CF /* DA11402.bin */,
-				735566A62760837700E220CF /* DA13402.bin */,
-				735566AA2760837800E220CF /* DM10402.bin */,
-				735566B82760837B00E220CF /* DY00274.bin */,
-				735566B12760837A00E220CF /* DY01274.bin */,
-				735566B02760837900E220CF /* DY02274.bin */,
-				735566B32760837A00E220CF /* DY05274.bin */,
-				735566AB2760837800E220CF /* DY11274.bin */,
-				735566B42760837A00E220CF /* DY12274.bin */,
-				735566A72760837700E220CF /* DY14274.bin */,
-				735566B62760837A00E220CF /* DY16274.bin */,
-				735566A42760837700E220CF /* GY00274.bin */,
-				735566AC2760837800E220CF /* GY01274.bin */,
-				735566A82760837800E220CF /* GY02274.bin */,
-				735566AD2760837900E220CF /* GY05274.bin */,
-				735566B72760837B00E220CF /* GY11274.bin */,
-				735566AE2760837900E220CF /* GY12274.bin */,
-				735566AF2760837900E220CF /* GY14274.bin */,
-				735566B22760837A00E220CF /* GY16274.bin */,
-			);
-			path = bin;
 			sourceTree = "<group>";
 		};
 		ABFF92C4CAECF0C1C642BC34 /* Pods */ = {
@@ -1911,14 +1858,14 @@
 				3644AF7124F67F930063D913 /* img_lcdModelHelp1.png in Resources */,
 				3E1480651FCFEF1400FA8A2D /* A6@2x.png in Resources */,
 				7379ACBD2772C2F700591454 /* Bulgarian-GDPR disclaimewr.pdf in Resources */,
-				737D25FF2755FF9A003D698F /* update_10_18_3@2x.png in Resources */,
 				3E3561FF1FB4560E00135503 /* 返回绿色@1x.png in Resources */,
 				36067D9321BF5CEB00FB6865 /* updateFirmwareTip0@2x.png in Resources */,
+				7303474C27E88E5800870B50 /* DA11402.bin in Resources */,
 				3E43AD321FAAF4E100924616 /* 电量2@1x.png in Resources */,
 				3E11A3861FD90AAD000CAA08 /* icon-150@3x.png in Resources */,
-				73A8832B27CE0E70004A0239 /* DY00274.bin in Resources */,
 				BBB611252019B111007FA3D4 /* 120x120@2x.png in Resources */,
 				3E1480511FCFEF1400FA8A2D /* 机器人APP1+2(1)-3.png in Resources */,
+				7303474627E88E5800870B50 /* GY00274.bin in Resources */,
 				7379ACBE2772C2F700591454 /* gdpr-cs.pdf in Resources */,
 				3EE3DC481FA8B2BE0049B8F7 /* 右转@2x.png in Resources */,
 				36F0FCFB2456C599006B1ABA /* iphone60pt@3x.png in Resources */,
@@ -1937,6 +1884,7 @@
 				7379ACC32772C2F700591454 /* gdpr-hu.pdf in Resources */,
 				3E6325541FA6D09400F14462 /* background@2x.png in Resources */,
 				3E5815BF1FAFF72300E93520 /* Generalsetting@1x.png in Resources */,
+				7303474A27E88E5800870B50 /* GY14274.bin in Resources */,
 				3E1480601FCFEF1400FA8A2D /* A2@3x.png in Resources */,
 				18C2ADE92653B995000142A1 /* dv_model1.png in Resources */,
 				3E2F25311FB946EF00E79C23 /* Imformation@2x.png in Resources */,
@@ -1949,8 +1897,8 @@
 				36FE81C321DE0A7200BD29F4 /* not password@2x.png in Resources */,
 				BB8D9490213FE33C0079EE63 /* DeviceTableViewCell.xib in Resources */,
 				BB479EF4208D6F9200B19D6A /* 60*60@2x.png in Resources */,
+				7303474327E88E5800870B50 /* DY05274.bin in Resources */,
 				BB37DA402043B7FC0078504A /* B3_50@2x.png in Resources */,
-				73A8833027CE0E70004A0239 /* DY05274.bin in Resources */,
 				3644AF4724F658970063D913 /* xianbuyong.png in Resources */,
 				3E1480531FCFEF1400FA8A2D /* loginView@2x.png in Resources */,
 				36009B8321F0261B00245D71 /* Welcome1_5.5@2x.png in Resources */,
@@ -1962,27 +1910,23 @@
 				BBB611272019B111007FA3D4 /* 60x60@3x.png in Resources */,
 				3E11A38A1FD90AAD000CAA08 /* icon-60.png in Resources */,
 				18C2ADFD2653B9C5000142A1 /* dv_icon1.png in Resources */,
+				7303473A27E88E5800870B50 /* GY11274.bin in Resources */,
 				BB479EFE208D6F9200B19D6A /* 87*87@3x.png in Resources */,
-				73A8832F27CE0E70004A0239 /* GY00274.bin in Resources */,
 				36F0FD022456C599006B1ABA /* iphone20pt@3x.png in Resources */,
 				3E11A3871FD90AAD000CAA08 /* icon-60@3x.png in Resources */,
 				3644AF5824F658980063D913 /* 返回1@2x.png in Resources */,
 				36009B7F21F0260B00245D71 /* Welcome@2x.png in Resources */,
 				BB37DA422043B7FC0078504A /* B2_50@2x.png in Resources */,
+				7303474527E88E5800870B50 /* GY12274.bin in Resources */,
 				3EC200A21FE2839F0005F15A /* 蓝牙图标@2x.png in Resources */,
 				3E1480611FCFEF1400FA8A2D /* A3@3x.png in Resources */,
 				3644AF5A24F658980063D913 /* 蓝牙图标@2x.png in Resources */,
 				3E43ACE21FAAB39C00924616 /* parkimage@2x.png in Resources */,
-				73A8832027CE0E70004A0239 /* DY01274.bin in Resources */,
-				73A8833127CE0E70004A0239 /* DY14274.bin in Resources */,
 				3E6325301FA6BC5F00F14462 /* Main.storyboard in Resources */,
-				73A8832E27CE0E70004A0239 /* DM10402.bin in Resources */,
-				73A8833227CE0E70004A0239 /* DY02274.bin in Resources */,
 				3E43ACDE1FAAB39C00924616 /* bluetooth@1x.png in Resources */,
 				3E14804C1FCFEF1400FA8A2D /* xianbuyong.png in Resources */,
 				3644AF4824F658970063D913 /* img_model1_help.png in Resources */,
 				3E43ACE31FAAB39C00924616 /* Pinsetting@1x.png in Resources */,
-				73A8832327CE0E70004A0239 /* DY16274.bin in Resources */,
 				73899ACE2759F18D0096A53D /* Localizable.strings in Resources */,
 				3EF771AA1FAAA38A00EC016A /* right@1x.png in Resources */,
 				18C2ADE32653B980000142A1 /* dv_ok.png in Resources */,
@@ -1992,6 +1936,7 @@
 				BBCCA45B2019B84C00423650 /* 80x80@2x.png in Resources */,
 				365E6C0224FA2B790067E737 /* ipad40pt@1x.png in Resources */,
 				3EA7AE061FB14B87001FB406 /* backgroundro@1x.png in Resources */,
+				738BF16A27E9B39B008FA770 /* update_10_18_3@2x.png in Resources */,
 				3EA7AE051FB14B87001FB406 /* backgroundco@2x.png in Resources */,
 				36FE81C021DDF7F900BD29F4 /* ic_eyesclosed@2x.png in Resources */,
 				3EF771A91FAAA38A00EC016A /* left@1x.png in Resources */,
@@ -2006,10 +1951,7 @@
 				7379ACC72772C2F700591454 /* gdpr-es.pdf in Resources */,
 				BB479EF8208D6F9200B19D6A /* 60*60@3x.png in Resources */,
 				3E3562001FB4560E00135503 /* bluetoothImage@1x.png in Resources */,
-				73A8832C27CE0E70004A0239 /* GY01274.bin in Resources */,
-				73A8832D27CE0E70004A0239 /* DY11274.bin in Resources */,
 				18C2AE042653B9E4000142A1 /* dv_btn2.png in Resources */,
-				73A8833327CE0E70004A0239 /* DA13402.bin in Resources */,
 				3E22E2A51FA9A7B8000BC792 /* wifi@2x.png in Resources */,
 				BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */,
 				3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */,
@@ -2027,18 +1969,17 @@
 				3644AF2624F652260063D913 /* img_addDevice_NextBtn.png in Resources */,
 				36FE81C421DE0A7200BD29F4 /* rememberpassword@2x.png in Resources */,
 				3644AFA024F75AFB0063D913 /* 10.png in Resources */,
+				7303473E27E88E5800870B50 /* DY02274.bin in Resources */,
 				3644AF5C24F658980063D913 /* A6@2x.png in Resources */,
 				3E11A3851FD90AAD000CAA08 /* 120@3x.png in Resources */,
 				18C2ADDB2653B8A4000142A1 /* dv.png in Resources */,
 				3E1480811FD00C0700FA8A2D /* A3@2x.png in Resources */,
-				73A8832127CE0E70004A0239 /* DA11402.bin in Resources */,
 				3644AF4D24F658970063D913 /* img_arrow.png in Resources */,
 				3EF771A71FAAA38A00EC016A /* down@1x.png in Resources */,
 				3644AF6124F658A70063D913 /* img_help.png in Resources */,
 				BB479EF7208D6F9200B19D6A /* 40*40@2x.png in Resources */,
 				3E43ACEB1FAACA5200924616 /* background2@2x.png in Resources */,
 				3E43ACE51FAAB39C00924616 /* signal@1x.png in Resources */,
-				73A8832227CE0E70004A0239 /* GY02274.bin in Resources */,
 				36FE81BE21DDBB5B00BD29F4 /* ic_eyespassword@1x.png in Resources */,
 				36605E552253855500849403 /* Images.xcassets in Resources */,
 				7379ACC42772C2F700591454 /* gdpr-nl.pdf in Resources */,
@@ -2061,11 +2002,13 @@
 				3E14806E1FCFFA8C00FA8A2D /* 电量4-2@1x.png in Resources */,
 				BBB6112B2019B1F3007FA3D4 /* 60x60@2x.png in Resources */,
 				3E14807A1FD0042D00FA8A2D /* A6@1x.png in Resources */,
+				7303474827E88E5800870B50 /* DY11274.bin in Resources */,
 				3644AF5724F658980063D913 /* A2@3x.png in Resources */,
 				36F0FD052456C599006B1ABA /* 167X167.png in Resources */,
 				3E2F25301FB946EF00E79C23 /* Generalsetting@2x.png in Resources */,
 				3644AFA224F75B130063D913 /* icon_check.png in Resources */,
 				18C2ADE62653B98A000142A1 /* dv_model2.png in Resources */,
+				7303474B27E88E5800870B50 /* DY01274.bin in Resources */,
 				3E14806C1FCFFA8C00FA8A2D /* 电量2-2@1x.png in Resources */,
 				3E22E2A61FA9A7B8000BC792 /* zx_code_line@2x.png in Resources */,
 				7379ACBC2772C2F700591454 /* Lithuanian-GDPR disclaimewr.pdf in Resources */,
@@ -2076,10 +2019,9 @@
 				3644AF5124F658970063D913 /* img_LCDmodel1_btn.png in Resources */,
 				36F0FD042456C599006B1ABA /* iphone40pt@3x.png in Resources */,
 				3644AF7C24F67FB30063D913 /* img_device_Simplehelp.png in Resources */,
+				7303474927E88E5800870B50 /* DA13402.bin in Resources */,
 				BB513EF52140DAC4000D2A5E /* ic_nav_more_black@2x.png in Resources */,
 				3E14805E1FCFEF1400FA8A2D /* 机器人APP1+2(1-1.png in Resources */,
-				73A8832827CE0E70004A0239 /* GY16274.bin in Resources */,
-				73A8832427CE0E70004A0239 /* GY05274.bin in Resources */,
 				3E14807B1FD0042D00FA8A2D /* backgroundnew@2x.png in Resources */,
 				3E43AD341FAAF4E100924616 /* 电量4@1x.png in Resources */,
 				3E43ACE61FAAB39C00924616 /* whether@1x.png in Resources */,
@@ -2103,16 +2045,18 @@
 				3E2F25321FB946EF00E79C23 /* Pinsetting@2x.png in Resources */,
 				3644AF5D24F658980063D913 /* A1@3x.png in Resources */,
 				BB513EEF2140C7A9000D2A5E /* img_wifi@2x.png in Resources */,
+				7303473B27E88E5800870B50 /* DY16274.bin in Resources */,
 				3644AF4F24F658970063D913 /* img_model2_btn.png in Resources */,
 				BB479EF6208D6F9200B19D6A /* 58*58@2x.png in Resources */,
 				3644AF5624F658970063D913 /* 14.png in Resources */,
 				7379ACCD2772C2F700591454 /* gdpr-it.pdf in Resources */,
 				7379ACC12772C2F700591454 /* gdpr-ru.pdf in Resources */,
+				7303474727E88E5800870B50 /* GY16274.bin in Resources */,
 				3E14805F1FCFEF1400FA8A2D /* A1@3x.png in Resources */,
-				73A8832A27CE0E70004A0239 /* GY11274.bin in Resources */,
 				3644AF5224F658970063D913 /* img_model2_help.png in Resources */,
 				36F0FCFF2456C599006B1ABA /* iphone40pt@2x.png in Resources */,
 				3E458D1D21AFD688001FEB1F /* SecondaryAreaImage.png in Resources */,
+				7303473C27E88E5800870B50 /* GY01274.bin in Resources */,
 				18C2ADEF2653B9AD000142A1 /* dv_m1.png in Resources */,
 				3E14806B1FCFFA8C00FA8A2D /* 电量1-2@1x.png in Resources */,
 				3EE3DC471FA8B2BE0049B8F7 /* 前进@2x.png in Resources */,
@@ -2124,29 +2068,31 @@
 				36F0FCF72456C599006B1ABA /* iphone29pt@2x.png in Resources */,
 				3E11A3891FD90AAD000CAA08 /* 58@2x.png in Resources */,
 				3EE3DC491FA8B2BE0049B8F7 /* 左转@2x.png in Resources */,
+				7303474227E88E5800870B50 /* DY12274.bin in Resources */,
 				3644AF7024F67F930063D913 /* img_model1_help_up_text.png in Resources */,
 				36DDB0BD21D5C2A7006CEAFA /* ic_nav_more_white@2x.png in Resources */,
 				3E43AD391FAAF5C600924616 /* 电量5@1x.png in Resources */,
+				7303473D27E88E5800870B50 /* DY14274.bin in Resources */,
 				36F0FCFE2456C599006B1ABA /* ipad20pt@2x.png in Resources */,
 				3644AF4B24F658970063D913 /* loginView@2x.png in Resources */,
 				3E1480791FD0042D00FA8A2D /* 蓝牙连接@1x.png in Resources */,
+				7303474027E88E5800870B50 /* DY00274.bin in Resources */,
 				BBC4AB802102D8C100F49BDC /* LaunchScreen.storyboard in Resources */,
 				BB2A1EDA2533ECE10039251F /* Welc.png in Resources */,
 				737D25FD2755FF9A003D698F /* update_10_18_2@2x.png in Resources */,
 				BB37DA412043B7FC0078504A /* B1_50@2x.png in Resources */,
 				3E43AD311FAAF4E100924616 /* 电量1@1x.png in Resources */,
 				3E14806F1FCFFA8C00FA8A2D /* 电量5-2@1x.png in Resources */,
-				73A8832527CE0E70004A0239 /* GY12274.bin in Resources */,
 				7379ACBF2772C2F700591454 /* gdpr-sv.pdf in Resources */,
-				73A8832927CE0E70004A0239 /* DY12274.bin in Resources */,
-				73A8832727CE0E70004A0239 /* DA10402.bin in Resources */,
+				7303474127E88E5800870B50 /* DA10402.bin in Resources */,
 				3644AF7424F67F930063D913 /* 19.png in Resources */,
 				3E43ACEA1FAACA5200924616 /* background1@2x.png in Resources */,
+				7303474427E88E5800870B50 /* GY02274.bin in Resources */,
 				3644AF5424F658970063D913 /* img_connect_Btn.png in Resources */,
 				BBB6112C2019B1F3007FA3D4 /* 120x120@3x.png in Resources */,
-				73A8832627CE0E70004A0239 /* GY14274.bin in Resources */,
 				36F0FCF92456C599006B1ABA /* iphone29pt@3x.png in Resources */,
 				7379ACCC2772C2F700591454 /* gdpr-sk.pdf in Resources */,
+				7303473F27E88E5800870B50 /* GY05274.bin in Resources */,
 				3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */,
 				7379ACC22772C2F700591454 /* gdpr-pt.pdf in Resources */,
 				3644AF5324F658970063D913 /* img_model1_btn.png in Resources */,
@@ -2513,7 +2459,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Y2GCZP95KQ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2580,7 +2526,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Y2GCZP95KQ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2703,7 +2649,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Y2GCZP95KQ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
